@@ -2,7 +2,6 @@
 
 /*
 Template Name: Home Page
-Hello World
 */
 
 get_header(); ?>
@@ -57,10 +56,16 @@ get_header(); ?>
 					</div>
 				</section>
 
-				<?php if( class_exists( 'WooCommerce' ) ): ?>
+				<?php 
+				/*----------------------------------------------------------------------------------------------*/
+				// We'll only show these sections if WooCommerce is ative
+				if( class_exists( 'WooCommerce' ) ): 
+				?>
 
 						<section class="popular-products">
 							<?php 
+
+							// Getting data from Customizer to display the Popular Products section
 							$popular_limit		= get_theme_mod( 'set_popular_max_num', 4 );
 							$popular_col 		= get_theme_mod( 'set_popular_max_col', 4 );
 							$arrivals_limit		= get_theme_mod( 'set_new_arrivals_max_num', 4 );
@@ -68,30 +73,38 @@ get_header(); ?>
 
 							?>
 							<div class="container">
-								<h2>Popular Products</h2>
+								<div class="section-title">
+									<h2><?php echo get_theme_mod( 'set_popular_title', 'Popular products' ); ?></h2>
+								</div>
 								<?php echo do_shortcode( '[products limit=" ' . $popular_limit . ' " columns=" ' . $popular_col . ' " orderby="popularity"]' ); ?>
 							</div>
 						</section>
 						<section class="new-arrivals">
 							<div class="container">
-								<h2>New Arrivals</h2>
+								<div class="section-title">
+									<h2><?php echo get_theme_mod( 'set_new_arrivals_title', 'New Arrivals' ); ?></h2>
+								</div>
 								<?php echo do_shortcode( '[products limit=" ' . $arrivals_limit . ' " columns=" ' . $arrivals_col . ' " orderby="date"]' ); ?>
 							</div>
 						</section>
 						<?php 
 
+						// Getting data from Customizer to display the Deal of the Week section
 						$showdeal			= get_theme_mod( 'set_deal_show', 0 );
 						$deal 				= get_theme_mod( 'set_deal' );
 						$currency			= get_woocommerce_currency_symbol();
 						$regular			= get_post_meta( $deal, '_regular_price', true );
 						$sale 				= get_post_meta( $deal, '_sale_price', true );
 
+						// We'll only show this section if the user chooses to do so and if some deal product is set
 						if( $showdeal == 1 && ( !empty( $deal ) ) ):
 							$discount_percentage = absint( 100 - ( ( $sale/$regular ) * 100 ) );
 						?>
 						<section class="deal-of-the-week">
 							<div class="container">
-								<h2>Deal of the Week</h2>
+								<div class="section-title">
+									<h2><?php echo get_theme_mod( 'set_deal_title', 'Deal of the Week' ); ?></h2>
+								</div>
 								<div class="row d-flex align-items-center">
 									<div class="deal-img col-md-6 col-12 ml-auto text-center">
 										<?php echo get_the_post_thumbnail( $deal, 'large', array( 'class' => 'img-fluid' ) ); ?>
@@ -127,26 +140,49 @@ get_header(); ?>
 								</div>
 							</div>
 						</section>
-						<?php endif; ?>
+						<?php endif; ?><!-- End $showdeal/$deal verification -->
 						
 				<?php endif; ?>
+				<!---------------------------------------------------------------------------------------------->
+				<!-- End class_exists for WooCommerce -->
 
 				<section class="lab-blog">
 					<div class="container">
+						<div class="section-title">
+							<h2><?php echo get_theme_mod( 'set_blog_title', 'News From Our Blog' ); ?></h2>
+						</div>						
 						<div class="row">
 							<?php 
+
+							$args = array(
+								'post_type'			=> 'post',
+								'posts_per_page'	=> -1,
+							);
+
+							$blog_posts = new WP_Query( $args );
+
 								// If there are any posts
-								if( have_posts() ):
+								if( $blog_posts->have_posts() ):
 
 									// Load posts loop
-									while( have_posts() ): the_post();
+									while( $blog_posts->have_posts() ): $blog_posts->the_post();
 										?>
-											<article>
-												<h2><?php the_title(); ?></h2>
-												<div><?php the_content(); ?></div>
+											<article class="col-12 col-md-6">
+												<a href="<?php the_permalink(); ?>">
+													<?php 
+														if( has_post_thumbnail() ):
+															the_post_thumbnail( 'fancy-lab-blog', array( 'class' => 'img-fluid' ) );
+														endif;
+													?>
+												</a>
+												<h3>
+													<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+												</h3>
+												<div class="excerpt"><?php the_excerpt(); ?></div>
 											</article>
 										<?php
 									endwhile;
+									wp_reset_postdata();
 								else:
 							?>
 								<p>Nothing to display.</p>
