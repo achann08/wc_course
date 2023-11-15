@@ -95,7 +95,6 @@ header p.site-title~span {
 header .brand{
     padding-bottom: 15px;
     word-break: break-word;
-    -ms-word-wrap: break-word;
 }
 
 header .brand img{
@@ -960,9 +959,6 @@ li.comment {
 
 .entry-pings .reply {
     display: none;
-}
-
-.bypostauthor {
 }
 
 .form-allowed-tags {
