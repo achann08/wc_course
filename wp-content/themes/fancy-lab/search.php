@@ -1,26 +1,21 @@
 <?php
 /**
- * The main template file
+ * The template for displaying search result page
  *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
+ * 
  * @package Fancy Lab
  */
 
-get_header(); 
-
+get_header();
 ?>
     <div class="content-area">
         <main>
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <?php 
+                        <h1>Search result for: <?php echo get_search_query(); ?></h1>
+                        <?php
                             if( have_posts() ):
                                 while( have_posts() ): the_post();
                                     ?>
@@ -59,7 +54,7 @@ get_header();
 
                             else:
                         ?>
-                            <p>Nothing to display.</p>
+                            <p>There are no result for your query.</p>
                         <?php endif; ?>
                     </div>
                 </div>
