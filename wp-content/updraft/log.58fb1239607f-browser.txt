@@ -1,0 +1,171 @@
+0000.041 (R) [notice] Looking for db archive: file name: backup_2023-11-13-1136_Woocommerce_Course_40bbf8b41e25-db.gz
+0000.041 (R) [notice] Archive is expected to be size: 334.2 KB: OK
+0000.045 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.048 (R) [notice] Unpacking backup... (backup_2023-11-13-1136_Woocommerce_Course_40bbf8b41e25-db.gz, 0.3 Mb)
+0000.051 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.133 (R) [notice] Enabling Maintenance mode&#8230;
+0000.190 (R) [notice] Backup of: http://localhost/wc_course
+0000.192 (R) [notice] Content URL: http://localhost/wc_course/wp-content
+0000.192 (R) [notice] Uploads URL: http://localhost/wc_course/wp-content/uploads
+0000.192 (R) [notice] Old table prefix: wcc_
+0000.192 (R) [notice] UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.192 (R) [notice] Site information: multisite = 0
+0000.192 (R) [notice] Site information: sql_mode = NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.194 (R) [notice] New table prefix: f1_
+0000.197 (R) [notice] Processing table (InnoDB):  wcc_options - will restore as: f1_options
+0000.324 (R) [notice] Atomic restore: dropping original table (wcc_options)
+0000.331 (R) [notice] Atomic restore: renaming new table (f1_options) to final table name (wcc_options)
+0000.352 (R) [notice] Processing table (InnoDB):  wcc_users - will restore as: f1_users
+0000.392 (R) [notice] Atomic restore: dropping original table (wcc_users)
+0000.399 (R) [notice] Atomic restore: renaming new table (f1_users) to final table name (wcc_users)
+0000.405 (R) [notice] Processing table (InnoDB):  wcc_usermeta - will restore as: f1_usermeta
+0000.442 (R) [notice] Atomic restore: dropping original table (wcc_usermeta)
+0000.447 (R) [notice] Atomic restore: renaming new table (f1_usermeta) to final table name (wcc_usermeta)
+0000.453 (R) [notice] Processing table (InnoDB):  wcc_actionscheduler_actions - will restore as: f1_actionscheduler_actions
+0000.493 (R) [notice] Atomic restore: dropping original table (wcc_actionscheduler_actions)
+0000.498 (R) [notice] Atomic restore: renaming new table (f1_actionscheduler_actions) to final table name (wcc_actionscheduler_actions)
+0000.506 (R) [notice] Processing table (InnoDB):  wcc_actionscheduler_claims - will restore as: f1_actionscheduler_claims
+0000.549 (R) [notice] Atomic restore: dropping original table (wcc_actionscheduler_claims)
+0000.554 (R) [notice] Atomic restore: renaming new table (f1_actionscheduler_claims) to final table name (wcc_actionscheduler_claims)
+0000.561 (R) [notice] Processing table (InnoDB):  wcc_actionscheduler_groups - will restore as: f1_actionscheduler_groups
+0000.580 (R) [notice] Atomic restore: dropping original table (wcc_actionscheduler_groups)
+0000.586 (R) [notice] Atomic restore: renaming new table (f1_actionscheduler_groups) to final table name (wcc_actionscheduler_groups)
+0000.591 (R) [notice] Processing table (InnoDB):  wcc_actionscheduler_logs - will restore as: f1_actionscheduler_logs
+0000.623 (R) [notice] Atomic restore: dropping original table (wcc_actionscheduler_logs)
+0000.627 (R) [notice] Atomic restore: renaming new table (f1_actionscheduler_logs) to final table name (wcc_actionscheduler_logs)
+0000.633 (R) [notice] Processing table (InnoDB):  wcc_commentmeta - will restore as: f1_commentmeta
+0000.662 (R) [notice] Atomic restore: dropping original table (wcc_commentmeta)
+0000.667 (R) [notice] Atomic restore: renaming new table (f1_commentmeta) to final table name (wcc_commentmeta)
+0000.673 (R) [notice] Processing table (InnoDB):  wcc_comments - will restore as: f1_comments
+0000.703 (R) [notice] Atomic restore: dropping original table (wcc_comments)
+0000.707 (R) [notice] Atomic restore: renaming new table (f1_comments) to final table name (wcc_comments)
+0000.713 (R) [notice] Processing table (InnoDB):  wcc_links - will restore as: f1_links
+0000.742 (R) [notice] Atomic restore: dropping original table (wcc_links)
+0000.781 (R) [notice] Atomic restore: renaming new table (f1_links) to final table name (wcc_links)
+0000.787 (R) [notice] Processing table (InnoDB):  wcc_postmeta - will restore as: f1_postmeta
+0000.836 (R) [notice] Atomic restore: dropping original table (wcc_postmeta)
+0000.840 (R) [notice] Atomic restore: renaming new table (f1_postmeta) to final table name (wcc_postmeta)
+0000.845 (R) [notice] Processing table (InnoDB):  wcc_posts - will restore as: f1_posts
+0000.890 (R) [notice] Atomic restore: dropping original table (wcc_posts)
+0000.897 (R) [notice] Atomic restore: renaming new table (f1_posts) to final table name (wcc_posts)
+0000.902 (R) [notice] Processing table (InnoDB):  wcc_term_relationships - will restore as: f1_term_relationships
+0000.934 (R) [notice] Atomic restore: dropping original table (wcc_term_relationships)
+0000.939 (R) [notice] Atomic restore: renaming new table (f1_term_relationships) to final table name (wcc_term_relationships)
+0000.943 (R) [notice] Processing table (InnoDB):  wcc_term_taxonomy - will restore as: f1_term_taxonomy
+0000.968 (R) [notice] Atomic restore: dropping original table (wcc_term_taxonomy)
+0000.972 (R) [notice] Atomic restore: renaming new table (f1_term_taxonomy) to final table name (wcc_term_taxonomy)
+0000.978 (R) [notice] Processing table (InnoDB):  wcc_termmeta - will restore as: f1_termmeta
+0000.997 (R) [notice] Database queries processed: 50 in 0.94 seconds
+0001.001 (R) [notice] Atomic restore: dropping original table (wcc_termmeta)
+0001.006 (R) [notice] Atomic restore: renaming new table (f1_termmeta) to final table name (wcc_termmeta)
+0001.011 (R) [notice] Processing table (InnoDB):  wcc_terms - will restore as: f1_terms
+0001.039 (R) [notice] Atomic restore: dropping original table (wcc_terms)
+0001.042 (R) [notice] Atomic restore: renaming new table (f1_terms) to final table name (wcc_terms)
+0001.047 (R) [notice] Processing table (InnoDB):  wcc_wc_category_lookup - will restore as: f1_wc_category_lookup
+0001.076 (R) [notice] Atomic restore: dropping original table (wcc_wc_category_lookup)
+0001.081 (R) [notice] Atomic restore: renaming new table (f1_wc_category_lookup) to final table name (wcc_wc_category_lookup)
+0001.090 (R) [notice] Processing table (InnoDB):  wcc_wc_product_meta_lookup - will restore as: f1_wc_product_meta_lookup
+0001.217 (R) [notice] Atomic restore: dropping original table (wcc_wc_product_meta_lookup)
+0001.233 (R) [notice] Atomic restore: renaming new table (f1_wc_product_meta_lookup) to final table name (wcc_wc_product_meta_lookup)
+0001.268 (R) [notice] Processing table (InnoDB):  wcc_wc_reserved_stock - will restore as: f1_wc_reserved_stock
+0001.296 (R) [notice] Atomic restore: dropping original table (wcc_wc_reserved_stock)
+0001.302 (R) [notice] Atomic restore: renaming new table (f1_wc_reserved_stock) to final table name (wcc_wc_reserved_stock)
+0001.310 (R) [notice] Processing table (InnoDB):  wcc_wc_tax_rate_classes - will restore as: f1_wc_tax_rate_classes
+0001.343 (R) [notice] Atomic restore: dropping original table (wcc_wc_tax_rate_classes)
+0001.348 (R) [notice] Atomic restore: renaming new table (f1_wc_tax_rate_classes) to final table name (wcc_wc_tax_rate_classes)
+0001.354 (R) [notice] Processing table (InnoDB):  wcc_woocommerce_order_itemmeta - will restore as: f1_woocommerce_order_itemmeta
+0001.378 (R) [notice] Atomic restore: dropping original table (wcc_woocommerce_order_itemmeta)
+0001.383 (R) [notice] Atomic restore: renaming new table (f1_woocommerce_order_itemmeta) to final table name (wcc_woocommerce_order_itemmeta)
+0001.390 (R) [notice] Processing table (InnoDB):  wcc_woocommerce_payment_tokenmeta - will restore as: f1_woocommerce_payment_tokenmeta
+0001.420 (R) [notice] Atomic restore: dropping original table (wcc_woocommerce_payment_tokenmeta)
+0001.425 (R) [notice] Atomic restore: renaming new table (f1_woocommerce_payment_tokenmeta) to final table name (wcc_woocommerce_payment_tokenmeta)
+0001.432 (R) [notice] Processing table (InnoDB):  wcc_wc_admin_note_actions - will restore as: f1_wc_admin_note_actions
+0001.468 (R) [notice] Atomic restore: dropping original table (wcc_wc_admin_note_actions)
+0001.474 (R) [notice] Atomic restore: renaming new table (f1_wc_admin_note_actions) to final table name (wcc_wc_admin_note_actions)
+0001.481 (R) [notice] Processing table (InnoDB):  wcc_wc_admin_notes - will restore as: f1_wc_admin_notes
+0001.515 (R) [notice] Atomic restore: dropping original table (wcc_wc_admin_notes)
+0001.520 (R) [notice] Atomic restore: renaming new table (f1_wc_admin_notes) to final table name (wcc_wc_admin_notes)
+0001.525 (R) [notice] Processing table (InnoDB):  wcc_wc_customer_lookup - will restore as: f1_wc_customer_lookup
+0001.553 (R) [notice] Atomic restore: dropping original table (wcc_wc_customer_lookup)
+0001.558 (R) [notice] Atomic restore: renaming new table (f1_wc_customer_lookup) to final table name (wcc_wc_customer_lookup)
+0001.566 (R) [notice] Processing table (InnoDB):  wcc_wc_download_log - will restore as: f1_wc_download_log
+0001.598 (R) [notice] Atomic restore: dropping original table (wcc_wc_download_log)
+0001.604 (R) [notice] Atomic restore: renaming new table (f1_wc_download_log) to final table name (wcc_wc_download_log)
+0001.611 (R) [notice] Processing table (InnoDB):  wcc_wc_order_addresses - will restore as: f1_wc_order_addresses
+0001.650 (R) [notice] Atomic restore: dropping original table (wcc_wc_order_addresses)
+0001.671 (R) [notice] Atomic restore: renaming new table (f1_wc_order_addresses) to final table name (wcc_wc_order_addresses)
+0001.679 (R) [notice] Processing table (InnoDB):  wcc_wc_order_coupon_lookup - will restore as: f1_wc_order_coupon_lookup
+0001.706 (R) [notice] Atomic restore: dropping original table (wcc_wc_order_coupon_lookup)
+0001.710 (R) [notice] Atomic restore: renaming new table (f1_wc_order_coupon_lookup) to final table name (wcc_wc_order_coupon_lookup)
+0001.716 (R) [notice] Processing table (InnoDB):  wcc_wc_order_operational_data - will restore as: f1_wc_order_operational_data
+0001.757 (R) [notice] Atomic restore: dropping original table (wcc_wc_order_operational_data)
+0001.778 (R) [notice] Atomic restore: renaming new table (f1_wc_order_operational_data) to final table name (wcc_wc_order_operational_data)
+0001.786 (R) [notice] Processing table (InnoDB):  wcc_wc_order_product_lookup - will restore as: f1_wc_order_product_lookup
+0001.807 (R) [notice] Atomic restore: dropping original table (wcc_wc_order_product_lookup)
+0001.810 (R) [notice] Atomic restore: renaming new table (f1_wc_order_product_lookup) to final table name (wcc_wc_order_product_lookup)
+0001.817 (R) [notice] Processing table (InnoDB):  wcc_wc_order_stats - will restore as: f1_wc_order_stats
+0001.847 (R) [notice] Atomic restore: dropping original table (wcc_wc_order_stats)
+0001.852 (R) [notice] Atomic restore: renaming new table (f1_wc_order_stats) to final table name (wcc_wc_order_stats)
+0001.859 (R) [notice] Processing table (InnoDB):  wcc_wc_order_tax_lookup - will restore as: f1_wc_order_tax_lookup
+0001.878 (R) [notice] Atomic restore: dropping original table (wcc_wc_order_tax_lookup)
+0001.883 (R) [notice] Atomic restore: renaming new table (f1_wc_order_tax_lookup) to final table name (wcc_wc_order_tax_lookup)
+0001.889 (R) [notice] Processing table (InnoDB):  wcc_wc_orders - will restore as: f1_wc_orders
+0001.914 (R) [notice] Atomic restore: dropping original table (wcc_wc_orders)
+0001.933 (R) [notice] Atomic restore: renaming new table (f1_wc_orders) to final table name (wcc_wc_orders)
+0001.940 (R) [notice] Processing table (InnoDB):  wcc_wc_orders_meta - will restore as: f1_wc_orders_meta
+0001.966 (R) [notice] Atomic restore: dropping original table (wcc_wc_orders_meta)
+0001.986 (R) [notice] Atomic restore: renaming new table (f1_wc_orders_meta) to final table name (wcc_wc_orders_meta)
+0001.993 (R) [notice] Processing table (InnoDB):  wcc_wc_product_attributes_lookup - will restore as: f1_wc_product_attributes_lookup
+0002.028 (R) [notice] Atomic restore: dropping original table (wcc_wc_product_attributes_lookup)
+0002.033 (R) [notice] Database queries processed: 100 in 1.97 seconds
+0002.033 (R) [notice] Atomic restore: renaming new table (f1_wc_product_attributes_lookup) to final table name (wcc_wc_product_attributes_lookup)
+0002.038 (R) [notice] Processing table (InnoDB):  wcc_wc_product_download_directories - will restore as: f1_wc_product_download_directories
+0002.067 (R) [notice] Atomic restore: dropping original table (wcc_wc_product_download_directories)
+0002.072 (R) [notice] Atomic restore: renaming new table (f1_wc_product_download_directories) to final table name (wcc_wc_product_download_directories)
+0002.078 (R) [notice] Processing table (InnoDB):  wcc_wc_rate_limits - will restore as: f1_wc_rate_limits
+0002.106 (R) [notice] Atomic restore: dropping original table (wcc_wc_rate_limits)
+0002.111 (R) [notice] Atomic restore: renaming new table (f1_wc_rate_limits) to final table name (wcc_wc_rate_limits)
+0002.116 (R) [notice] Processing table (InnoDB):  wcc_wc_webhooks - will restore as: f1_wc_webhooks
+0002.143 (R) [notice] Atomic restore: dropping original table (wcc_wc_webhooks)
+0002.147 (R) [notice] Atomic restore: renaming new table (f1_wc_webhooks) to final table name (wcc_wc_webhooks)
+0002.153 (R) [notice] Processing table (InnoDB):  wcc_woocommerce_api_keys - will restore as: f1_woocommerce_api_keys
+0002.179 (R) [notice] Atomic restore: dropping original table (wcc_woocommerce_api_keys)
+0002.183 (R) [notice] Atomic restore: renaming new table (f1_woocommerce_api_keys) to final table name (wcc_woocommerce_api_keys)
+0002.189 (R) [notice] Processing table (InnoDB):  wcc_woocommerce_attribute_taxonomies - will restore as: f1_woocommerce_attribute_taxonomies
+0002.221 (R) [notice] Atomic restore: dropping original table (wcc_woocommerce_attribute_taxonomies)
+0002.224 (R) [notice] Atomic restore: renaming new table (f1_woocommerce_attribute_taxonomies) to final table name (wcc_woocommerce_attribute_taxonomies)
+0002.229 (R) [notice] Processing table (InnoDB):  wcc_woocommerce_downloadable_product_permissions - will restore as: f1_woocommerce_downloadable_product_permissions
+0002.277 (R) [notice] Atomic restore: dropping original table (wcc_woocommerce_downloadable_product_permissions)
+0002.282 (R) [notice] Atomic restore: renaming new table (f1_woocommerce_downloadable_product_permissions) to final table name (wcc_woocommerce_downloadable_product_permissions)
+0002.290 (R) [notice] Processing table (InnoDB):  wcc_woocommerce_log - will restore as: f1_woocommerce_log
+0002.316 (R) [notice] Atomic restore: dropping original table (wcc_woocommerce_log)
+0002.322 (R) [notice] Atomic restore: renaming new table (f1_woocommerce_log) to final table name (wcc_woocommerce_log)
+0002.328 (R) [notice] Processing table (InnoDB):  wcc_woocommerce_order_items - will restore as: f1_woocommerce_order_items
+0002.345 (R) [notice] Atomic restore: dropping original table (wcc_woocommerce_order_items)
+0002.350 (R) [notice] Atomic restore: renaming new table (f1_woocommerce_order_items) to final table name (wcc_woocommerce_order_items)
+0002.356 (R) [notice] Processing table (InnoDB):  wcc_woocommerce_payment_tokens - will restore as: f1_woocommerce_payment_tokens
+0002.382 (R) [notice] Atomic restore: dropping original table (wcc_woocommerce_payment_tokens)
+0002.386 (R) [notice] Atomic restore: renaming new table (f1_woocommerce_payment_tokens) to final table name (wcc_woocommerce_payment_tokens)
+0002.394 (R) [notice] Processing table (InnoDB):  wcc_woocommerce_sessions - will restore as: f1_woocommerce_sessions
+0002.424 (R) [notice] Atomic restore: dropping original table (wcc_woocommerce_sessions)
+0002.429 (R) [notice] Atomic restore: renaming new table (f1_woocommerce_sessions) to final table name (wcc_woocommerce_sessions)
+0002.436 (R) [notice] Processing table (InnoDB):  wcc_woocommerce_shipping_zone_locations - will restore as: f1_woocommerce_shipping_zone_locations
+0002.464 (R) [notice] Atomic restore: dropping original table (wcc_woocommerce_shipping_zone_locations)
+0002.470 (R) [notice] Atomic restore: renaming new table (f1_woocommerce_shipping_zone_locations) to final table name (wcc_woocommerce_shipping_zone_locations)
+0002.477 (R) [notice] Processing table (InnoDB):  wcc_woocommerce_shipping_zone_methods - will restore as: f1_woocommerce_shipping_zone_methods
+0002.512 (R) [notice] Atomic restore: dropping original table (wcc_woocommerce_shipping_zone_methods)
+0002.519 (R) [notice] Atomic restore: renaming new table (f1_woocommerce_shipping_zone_methods) to final table name (wcc_woocommerce_shipping_zone_methods)
+0002.526 (R) [notice] Processing table (InnoDB):  wcc_woocommerce_shipping_zones - will restore as: f1_woocommerce_shipping_zones
+0002.557 (R) [notice] Atomic restore: dropping original table (wcc_woocommerce_shipping_zones)
+0002.561 (R) [notice] Atomic restore: renaming new table (f1_woocommerce_shipping_zones) to final table name (wcc_woocommerce_shipping_zones)
+0002.569 (R) [notice] Processing table (InnoDB):  wcc_woocommerce_tax_rate_locations - will restore as: f1_woocommerce_tax_rate_locations
+0002.585 (R) [notice] Atomic restore: dropping original table (wcc_woocommerce_tax_rate_locations)
+0002.589 (R) [notice] Atomic restore: renaming new table (f1_woocommerce_tax_rate_locations) to final table name (wcc_woocommerce_tax_rate_locations)
+0002.597 (R) [notice] Processing table (InnoDB):  wcc_woocommerce_tax_rates - will restore as: f1_woocommerce_tax_rates
+0002.653 (R) [notice] Disabling Maintenance mode&#8230;
+0002.654 (R) [notice] Atomic restore: dropping original table (wcc_woocommerce_tax_rates)
+0002.659 (R) [notice] Atomic restore: renaming new table (f1_woocommerce_tax_rates) to final table name (wcc_woocommerce_tax_rates)
+0002.666 (R) [notice] Finished: lines processed: 134 in 2.61 seconds
+0002.667 (R) [notice] Cleaning up rubbish...
+0002.667 (R) [notice] This option was not selected.
+0002.706 (R) [notice] Restore successful!
