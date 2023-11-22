@@ -177,7 +177,7 @@ header .brand img{
 
 .main-menu .navbar-toggler{
     border: none;
-    padding-right: 0;    
+    padding-right: 3%;    
 }
 
 .main-menu .dropdown-toggle::after {
