@@ -77,6 +77,42 @@ function fancy_lab_config(){
 			'flex_width'	=> true,
 		) );
 
+		add_theme_support( 'automatic-feed-links' );
+		// Add support for block styles
+		add_theme_support('wp-block-styles');
+
+		// Add support for block patterns
+		add_theme_support('editor-patterns');
+	
+		// Add support for responsive embeds
+		add_theme_support('responsive-embeds');
+	
+		// Add support for HTML5 with specified types
+		add_theme_support('html5', array('search-form', 'comment-form', 'comment-list', 'gallery', 'caption'));
+	   
+		// Add support for custom header
+		add_theme_support('custom-header', array(
+			'height' => 85,
+			'width' => 160,
+			'flex-height' => true,
+			'flex-width' => true,
+		));
+	
+		 // Add support for custom background
+		 add_theme_support('custom-background', array(
+			// Add your specific arguments here
+		));
+
+		// Add support for align wide
+		add_theme_support('align-wide');
+	
+		// Add editor styles
+		add_editor_style();
+	
+		// Add support for post thumbnails
+		add_theme_support('post-thumbnails');
+
+
 		add_image_size('fancy-lab-slider', 1920, 800, array('center', 'center'));
 		add_image_size('fancy-lab-blog', 960, 640, array('center', 'center'));
 
@@ -162,3 +198,31 @@ function fancy_lab_sidebars(){
 		'after_title'	=> '</h4>',
 	) );
 }
+
+
+function fancy_lab_register_block_patterns() {
+    register_block_pattern(
+        'fancy-lab/pattern-one',
+        array(
+            'title'       => esc_html__('Fancy Lab Pattern One', 'fancy-lab'),
+            'description' => esc_html__('Custom block pattern for Fancy Lab', 'fancy-lab'),
+            'content'     => '<!-- Your block pattern content here -->',
+            'categories'  => array('custom', 'fancy-lab'),
+        )
+    );
+}
+
+add_action('init', 'fancy_lab_register_block_patterns');
+
+function fancy_lab_register_block_styles() {
+    register_block_style(
+        'core/paragraph',
+        array(
+            'name'         => 'fancy-lab-style',
+            'label'        => esc_html__('Fancy Lab Style', 'fancy-lab'),
+            'style_handle' => 'fancy-lab-block-style',
+        )
+    );
+}
+
+add_action('init', 'fancy_lab_register_block_styles');
