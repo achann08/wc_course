@@ -1,0 +1,597 @@
+0000.000 (0) Opened log file at time: Mon, 27 Nov 2023 07:10:28 +0000 on http://localhost/wc_course
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.13 WP: 6.4.1 PHP: 8.1.6 (apache2handler, Windows NT LAPTOP-FMKECCH0 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.24-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 safe_mode: 0 max_execution_time: 900 memory_limit: 1000M (used: 66.6M | 68M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 185667.6 MB
+0000.009 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.012 (0) Semaphore (fd, wcc_options) being initialised
+0000.020 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.026 (0) Set semaphore last lock (fd) time to 2023-11-27 07:10:28
+0000.028 (0) Semaphore lock (fd) complete
+0000.034 (0) Backup run: resumption=0, nonce=fd74781ea1ec, file_nonce=fd74781ea1ec begun at=1701069028 (0s ago), job type=backup
+0000.036 (0) Scheduling a resumption (1) after 300 seconds (1701069328) in case this run gets aborted
+0000.047 (0) Checking if we have a zip executable available
+0000.050 (0) Creation of backups of directories: beginning
+0000.058 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.148 (0) Total entities for the zip file: 1561 directories, 8821 files (0 skipped as non-modified), 84.8 MB
+0002.178 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.204 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.230 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.258 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.284 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.315 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0002.341 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0002.363 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0002.387 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0002.410 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0002.412 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.8 MB, 8821 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0017.382 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 1100 files added (on-disk size: 4356.1 KB)
+0017.403 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 1200 files added (on-disk size: 4356.1 KB)
+0017.424 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 1300 files added (on-disk size: 4356.1 KB)
+0017.445 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 1400 files added (on-disk size: 4356.1 KB)
+0017.470 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 1500 files added (on-disk size: 4356.1 KB)
+0017.499 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 1600 files added (on-disk size: 4356.1 KB)
+0017.523 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 1700 files added (on-disk size: 4356.1 KB)
+0017.554 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 1800 files added (on-disk size: 4356.1 KB)
+0017.584 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 1900 files added (on-disk size: 4356.1 KB)
+0017.609 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 2000 files added (on-disk size: 4356.1 KB)
+0017.611 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.9 MB, 8821 files batched, 1001 (2002) added so far); re-opening (prior size: 4356.1 KB)
+0027.705 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 2100 files added (on-disk size: 6326.1 KB)
+0027.731 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 2200 files added (on-disk size: 6326.1 KB)
+0027.758 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 2300 files added (on-disk size: 6326.1 KB)
+0027.790 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 2400 files added (on-disk size: 6326.1 KB)
+0027.820 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 2500 files added (on-disk size: 6326.1 KB)
+0027.855 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 2600 files added (on-disk size: 6326.1 KB)
+0027.887 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 2700 files added (on-disk size: 6326.1 KB)
+0027.912 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 2800 files added (on-disk size: 6326.1 KB)
+0027.937 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 2900 files added (on-disk size: 6326.1 KB)
+0027.966 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 3000 files added (on-disk size: 6326.1 KB)
+0027.968 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (21.6 MB, 8821 files batched, 1001 (3003) added so far); re-opening (prior size: 6326.1 KB)
+0029.462 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 3100 files added (on-disk size: 12490.5 KB)
+0029.484 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 3200 files added (on-disk size: 12490.5 KB)
+0029.510 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 3300 files added (on-disk size: 12490.5 KB)
+0029.534 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 3400 files added (on-disk size: 12490.5 KB)
+0029.557 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 3500 files added (on-disk size: 12490.5 KB)
+0029.579 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 3600 files added (on-disk size: 12490.5 KB)
+0029.600 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 3700 files added (on-disk size: 12490.5 KB)
+0029.622 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 3800 files added (on-disk size: 12490.5 KB)
+0029.643 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 3900 files added (on-disk size: 12490.5 KB)
+0029.665 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 4000 files added (on-disk size: 12490.5 KB)
+0029.668 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15.3 MB, 8821 files batched, 1001 (4004) added so far); re-opening (prior size: 12490.5 KB)
+0030.886 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 4100 files added (on-disk size: 17629.6 KB)
+0030.914 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 4200 files added (on-disk size: 17629.6 KB)
+0030.946 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 4300 files added (on-disk size: 17629.6 KB)
+0030.971 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 4400 files added (on-disk size: 17629.6 KB)
+0030.994 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 4500 files added (on-disk size: 17629.6 KB)
+0031.017 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 4600 files added (on-disk size: 17629.6 KB)
+0031.042 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 4700 files added (on-disk size: 17629.6 KB)
+0031.064 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 4800 files added (on-disk size: 17629.6 KB)
+0031.127 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 4900 files added (on-disk size: 17629.6 KB)
+0031.150 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 5000 files added (on-disk size: 17629.6 KB)
+0031.153 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.2 MB, 8821 files batched, 1001 (5005) added so far); re-opening (prior size: 17629.6 KB)
+0031.806 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 5100 files added (on-disk size: 19720.7 KB)
+0031.831 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 5200 files added (on-disk size: 19720.7 KB)
+0031.852 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 5300 files added (on-disk size: 19720.7 KB)
+0031.874 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 5400 files added (on-disk size: 19720.7 KB)
+0031.897 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 5500 files added (on-disk size: 19720.7 KB)
+0031.919 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 5600 files added (on-disk size: 19720.7 KB)
+0031.952 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 5700 files added (on-disk size: 19720.7 KB)
+0031.998 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 5800 files added (on-disk size: 19720.7 KB)
+0032.035 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 5900 files added (on-disk size: 19720.7 KB)
+0032.073 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 6000 files added (on-disk size: 19720.7 KB)
+0032.077 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (1.8 MB, 8821 files batched, 1001 (6006) added so far); re-opening (prior size: 19720.7 KB)
+0032.565 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 6100 files added (on-disk size: 20809.7 KB)
+0032.594 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 6200 files added (on-disk size: 20809.7 KB)
+0032.632 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 6300 files added (on-disk size: 20809.7 KB)
+0032.669 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 6400 files added (on-disk size: 20809.7 KB)
+0032.702 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 6500 files added (on-disk size: 20809.7 KB)
+0032.737 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 6600 files added (on-disk size: 20809.7 KB)
+0032.825 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 6700 files added (on-disk size: 20809.7 KB)
+0032.854 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 6800 files added (on-disk size: 20809.7 KB)
+0032.884 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 6900 files added (on-disk size: 20809.7 KB)
+0032.916 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 7000 files added (on-disk size: 20809.7 KB)
+0032.920 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.5 MB, 8821 files batched, 1001 (7007) added so far); re-opening (prior size: 20809.7 KB)
+0033.572 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 7100 files added (on-disk size: 22646 KB)
+0033.600 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 7200 files added (on-disk size: 22646 KB)
+0033.628 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 7300 files added (on-disk size: 22646 KB)
+0033.654 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 7400 files added (on-disk size: 22646 KB)
+0033.679 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 7500 files added (on-disk size: 22646 KB)
+0033.703 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 7600 files added (on-disk size: 22646 KB)
+0033.728 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 7700 files added (on-disk size: 22646 KB)
+0033.756 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 7800 files added (on-disk size: 22646 KB)
+0033.820 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 7900 files added (on-disk size: 22646 KB)
+0033.844 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 8000 files added (on-disk size: 22646 KB)
+0033.848 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.7 MB, 8821 files batched, 1001 (8008) added so far); re-opening (prior size: 22646 KB)
+0034.531 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 8100 files added (on-disk size: 31377 KB)
+0034.555 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 8200 files added (on-disk size: 31377 KB)
+0034.578 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 8300 files added (on-disk size: 31377 KB)
+0034.600 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 8400 files added (on-disk size: 31377 KB)
+0034.623 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 8500 files added (on-disk size: 31377 KB)
+0034.646 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 8600 files added (on-disk size: 31377 KB)
+0034.669 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 8700 files added (on-disk size: 31377 KB)
+0034.716 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.tmp: 8800 files added (on-disk size: 31377 KB)
+0035.345 (0) Creating zip file manifest (backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.list-temp.tmp)
+0035.374 (0) Successfully created zip file manifest (size: 860495)
+0035.645 (0) Created plugins zip (0) - 32604.5 KB in 35.6 s (916.3 KB/s) (sha1: 21fb22766372582a70834aaebeeaa5a2b3933d37, sha256: ec98eae5b753b93be246ae232ca6c4d47fbc15199250e966d42896e3bfc4e3d5)
+0035.657 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0035.660 (0) No remote despatch: user chose no remote backup service
+0035.663 (0) Recording as successfully uploaded: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip
+0035.668 (0) Deleting zip manifest (backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip.list.tmp)
+0035.674 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0035.676 (0) Number of backup sets in history: 1; groups (db): 1
+0035.678 (0) Examining (for databases) backup set with group_id=0, nonce=40bbf8b41e25, datestamp=1699875360 (Nov 13 2023 11:36:00)
+0035.679 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0035.681 (0) Number of backup sets in history: 1; groups (files): 1
+0035.682 (0) Examining (for files) backup set with nonce=40bbf8b41e25, datestamp=1699875360 (Nov 13 2023 11:36:00)
+0035.682 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0035.684 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0035.692 (0) Beginning creation of dump of themes (split every: 400 MB)
+0035.865 (0) Total entities for the zip file: 112 directories, 638 files (0 skipped as non-modified), 20.5 MB
+0035.892 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0035.916 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0035.942 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0035.967 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0035.988 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0036.011 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0043.842 (0) Creating zip file manifest (backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-themes.zip.list-temp.tmp)
+0043.846 (0) Successfully created zip file manifest (size: 44628)
+0043.990 (0) Created themes zip (0) - 18153.9 KB in 8.3 s (2188.8 KB/s) (sha1: 634dadd416d9cb53b7358426ddaf19c973d0d8c7, sha256: 6f996ff7a839fedee7ea6009a8decd84db3329710ebf8120c627becc3d7cdf8d)
+0043.997 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0043.998 (0) No remote despatch: user chose no remote backup service
+0043.999 (0) Recording as successfully uploaded: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-themes.zip
+0044.002 (0) Deleting zip manifest (backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-themes.zip.list.tmp)
+0044.004 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0044.006 (0) Number of backup sets in history: 1; groups (db): 1
+0044.007 (0) Examining (for databases) backup set with group_id=0, nonce=40bbf8b41e25, datestamp=1699875360 (Nov 13 2023 11:36:00)
+0044.008 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0044.009 (0) Number of backup sets in history: 1; groups (files): 1
+0044.010 (0) Examining (for files) backup set with nonce=40bbf8b41e25, datestamp=1699875360 (Nov 13 2023 11:36:00)
+0044.010 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0044.011 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0044.017 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0044.018 (0) Looking for candidates to backup in: C:\xampp\htdocs\wc_course/wp-content/uploads
+0044.019 (0) finding files: 2023: adding to list (1)
+0044.020 (0) finding files: wc-logs: adding to list (2)
+0044.022 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (3)
+0044.023 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (4)
+0044.024 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (5)
+0044.025 (0) finding files: woocommerce-placeholder-250x250.png: adding to list (6)
+0044.025 (0) finding files: woocommerce-placeholder-255x255.png: adding to list (7)
+0044.026 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (8)
+0044.027 (0) finding files: woocommerce-placeholder-400x400.png: adding to list (9)
+0044.028 (0) finding files: woocommerce-placeholder-450x450.png: adding to list (10)
+0044.029 (0) finding files: woocommerce-placeholder-600x600.png: adding to list (11)
+0044.030 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (12)
+0044.031 (0) finding files: woocommerce-placeholder.png: adding to list (13)
+0044.031 (0) finding files: woocommerce_uploads: adding to list (14)
+0044.032 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0044.143 (0) Total entities for the zip file: 6 directories, 480 files (0 skipped as non-modified), 14 MB
+0044.168 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0044.192 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0044.216 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0044.239 (0) Zip: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0046.284 (0) Creating zip file manifest (backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-uploads.zip.list-temp.tmp)
+0046.289 (0) Successfully created zip file manifest (size: 30596)
+0046.408 (0) Created uploads zip (0) - 14458.4 KB in 2.4 s (6096.2 KB/s) (sha1: 9cc89115870afaeb2bf36453d7fcee578eda8c00, sha256: 225533ad41f744e5bf0f99f3fa0304a2ade38e53ef532482f70ed54a4aa5ee43)
+0046.414 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0046.415 (0) No remote despatch: user chose no remote backup service
+0046.417 (0) Recording as successfully uploaded: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-uploads.zip
+0046.420 (0) Deleting zip manifest (backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-uploads.zip.list.tmp)
+0046.423 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0046.425 (0) Number of backup sets in history: 1; groups (db): 1
+0046.426 (0) Examining (for databases) backup set with group_id=0, nonce=40bbf8b41e25, datestamp=1699875360 (Nov 13 2023 11:36:00)
+0046.426 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0046.428 (0) Number of backup sets in history: 1; groups (files): 1
+0046.429 (0) Examining (for files) backup set with nonce=40bbf8b41e25, datestamp=1699875360 (Nov 13 2023 11:36:00)
+0046.429 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0046.431 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0046.437 (0) No backup of mu-plugins: excluded by user's options
+0046.440 (0) Beginning backup of other directories found in the content directory (index: 0)
+0046.441 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0046.442 (0) Looking for candidates to backup in: C:\xampp\htdocs\wc_course/wp-content
+0046.443 (0) finding files: index.php: adding to list (1)
+0046.444 (0) finding files: languages: adding to list (2)
+0046.445 (0) finding files: plugins: skipping: this is the plugins directory
+0046.447 (0) finding files: themes: skipping: this is the themes directory
+0046.448 (0) finding files: updraft: skipping: this is the updraft directory
+0046.449 (0) finding files: upgrade: skipping: excluded by options
+0046.450 (0) finding files: upgrade-temp-backup: adding to list (3)
+0046.451 (0) finding files: uploads: skipping: this is the uploads directory
+0046.465 (0) Total entities for the zip file: 3 directories, 68 files (0 skipped as non-modified), 2.8 MB
+0047.101 (0) Creating zip file manifest (backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-others.zip.list-temp.tmp)
+0047.105 (0) Successfully created zip file manifest (size: 4102)
+0047.122 (0) Created others zip (0) - 766 KB in 0.7 s (1149.8 KB/s) (sha1: 2f51fa5a522f5bdeeea3b6ab3cc286da8391204d, sha256: e7933f700b43f07c17e30c7c9776713685f8b264349015dab667a5ae42a155a3)
+0047.127 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0047.128 (0) No remote despatch: user chose no remote backup service
+0047.129 (0) Recording as successfully uploaded: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-others.zip
+0047.132 (0) Deleting zip manifest (backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-others.zip.list.tmp)
+0047.134 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0047.136 (0) Number of backup sets in history: 1; groups (db): 1
+0047.137 (0) Examining (for databases) backup set with group_id=0, nonce=40bbf8b41e25, datestamp=1699875360 (Nov 13 2023 11:36:00)
+0047.137 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0047.138 (0) Number of backup sets in history: 1; groups (files): 1
+0047.139 (0) Examining (for files) backup set with nonce=40bbf8b41e25, datestamp=1699875360 (Nov 13 2023 11:36:00)
+0047.139 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0047.140 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0047.150 (0) Saving backup status to database (elements: 8)
+0047.152 (0) Beginning creation of database dump (WordPress DB)
+0047.154 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0047.471 (0) Table wcc_options: Total expected rows (approximate): 2587
+0047.502 (0) Table wcc_options: Rows added in this batch (next record: 2621): 476 (uncompressed bytes in this segment=1187445) in 0.06 seconds
+0047.511 (0) Table wcc_options: finishing file(s) (2, 198 KB)
+0047.527 (0) Table wcc_users: Total expected rows (via COUNT): 1
+0047.528 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0047.531 (0) Table wcc_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1394) in 0.02 seconds
+0047.540 (0) Table wcc_users: finishing file(s) (2, 0.6 KB)
+0047.558 (0) Table wcc_usermeta: Total expected rows (via COUNT): 37
+0047.559 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0047.562 (0) Table wcc_usermeta: Rows added in this batch (next record: 64): 37 (uncompressed bytes in this segment=5355) in 0.02 seconds
+0047.570 (0) Table wcc_usermeta: finishing file(s) (2, 2.3 KB)
+0047.588 (0) Table wcc_actionscheduler_actions: Total expected rows (via COUNT): 32
+0047.589 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0047.591 (0) Table wcc_actionscheduler_actions: Rows added in this batch (next record: 105): 32 (uncompressed bytes in this segment=14143) in 0.02 seconds
+0047.599 (0) Table wcc_actionscheduler_actions: finishing file(s) (2, 2 KB)
+0047.614 (0) Table wcc_actionscheduler_claims: Total expected rows (via COUNT): 0
+0047.617 (0) Table wcc_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=631) in 0.01 seconds
+0047.624 (0) Table wcc_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0047.638 (0) Table wcc_actionscheduler_groups: Total expected rows (via COUNT): 5
+0047.640 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0047.643 (0) Table wcc_actionscheduler_groups: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=820) in 0.01 seconds
+0047.650 (0) Table wcc_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0047.663 (0) Table wcc_actionscheduler_logs: Total expected rows (via COUNT): 94
+0047.664 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0047.668 (0) Table wcc_actionscheduler_logs: Rows added in this batch (next record: 199): 94 (uncompressed bytes in this segment=8990) in 0.01 seconds
+0047.675 (0) Table wcc_actionscheduler_logs: finishing file(s) (2, 1.4 KB)
+0047.692 (0) Table wcc_commentmeta: Total expected rows (via COUNT): 0
+0047.695 (0) Table wcc_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=702) in 0.01 seconds
+0047.702 (0) Table wcc_commentmeta: finishing file(s) (2, 0.4 KB)
+0047.717 (0) Table wcc_comments: Total expected rows (via COUNT): 1
+0047.718 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0047.721 (0) Table wcc_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2187) in 0.01 seconds
+0047.728 (0) Table wcc_comments: finishing file(s) (2, 0.8 KB)
+0047.751 (0) Table wcc_links: Total expected rows (via COUNT): 0
+0047.754 (0) Table wcc_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1312) in 0.01 seconds
+0047.761 (0) Table wcc_links: finishing file(s) (2, 0.5 KB)
+0047.791 (0) Table wcc_postmeta: Total expected rows (via COUNT): 962
+0047.792 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0047.799 (0) Table wcc_postmeta: Rows added in this batch (next record: 1146): 962 (uncompressed bytes in this segment=136211) in 0.03 seconds
+0047.808 (0) Table wcc_postmeta: finishing file(s) (2, 14.9 KB)
+0047.831 (0) Table wcc_posts: Total expected rows (via COUNT): 165
+0047.833 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0047.843 (0) Table wcc_posts: Rows added in this batch (next record: 204): 165 (uncompressed bytes in this segment=179390) in 0.03 seconds
+0047.852 (0) Table wcc_posts: finishing file(s) (2, 39 KB)
+0047.868 (0) Table wcc_term_relationships: Total expected rows (approximate): 115
+0047.872 (0) Table wcc_term_relationships: Rows added in this batch (next record: 100000): 115 (uncompressed bytes in this segment=2274) in 0.02 seconds
+0047.881 (0) Table wcc_term_relationships: finishing file(s) (2, 0.7 KB)
+0047.900 (0) Table wcc_term_taxonomy: Total expected rows (via COUNT): 34
+0047.901 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0047.904 (0) Table wcc_term_taxonomy: Rows added in this batch (next record: 34): 34 (uncompressed bytes in this segment=2132) in 0.02 seconds
+0047.913 (0) Table wcc_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0047.930 (0) Table wcc_termmeta: Total expected rows (via COUNT): 21
+0047.931 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0047.934 (0) Table wcc_termmeta: Rows added in this batch (next record: 21): 21 (uncompressed bytes in this segment=1419) in 0.02 seconds
+0047.942 (0) Table wcc_termmeta: finishing file(s) (2, 0.6 KB)
+0047.959 (0) Table wcc_terms: Total expected rows (via COUNT): 34
+0047.960 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0047.963 (0) Table wcc_terms: Rows added in this batch (next record: 34): 34 (uncompressed bytes in this segment=1915) in 0.02 seconds
+0047.971 (0) Table wcc_terms: finishing file(s) (2, 0.8 KB)
+0047.987 (0) Table wcc_wc_category_lookup: Total expected rows (approximate): 10
+0047.990 (0) Table wcc_wc_category_lookup: Rows added in this batch (next record: 1000): 10 (uncompressed bytes in this segment=696) in 0.01 seconds
+0047.997 (0) Table wcc_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0048.013 (0) Table wcc_wc_product_meta_lookup: Total expected rows (via COUNT): 25
+0048.014 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0048.017 (0) Table wcc_wc_product_meta_lookup: Rows added in this batch (next record: 71): 25 (uncompressed bytes in this segment=3958) in 0.02 seconds
+0048.027 (0) Table wcc_wc_product_meta_lookup: finishing file(s) (2, 0.9 KB)
+0048.042 (0) Table wcc_wc_reserved_stock: Total expected rows (approximate): 0
+0048.046 (0) Table wcc_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=669) in 0.01 seconds
+0048.055 (0) Table wcc_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0048.072 (0) Table wcc_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0048.073 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0048.076 (0) Table wcc_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=819) in 0.02 seconds
+0048.083 (0) Table wcc_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0048.104 (0) Table wcc_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0048.107 (0) Table wcc_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=790) in 0.02 seconds
+0048.115 (0) Table wcc_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0048.136 (0) Table wcc_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0048.140 (0) Table wcc_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=817) in 0.02 seconds
+0048.152 (0) Table wcc_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0048.171 (0) Table wcc_wc_admin_note_actions: Total expected rows (via COUNT): 102
+0048.173 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0048.176 (0) Table wcc_wc_admin_note_actions: Rows added in this batch (next record: 3443): 102 (uncompressed bytes in this segment=19668) in 0.02 seconds
+0048.185 (0) Table wcc_wc_admin_note_actions: finishing file(s) (2, 3 KB)
+0048.207 (0) Table wcc_wc_admin_notes: Total expected rows (via COUNT): 71
+0048.208 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0048.212 (0) Table wcc_wc_admin_notes: Rows added in this batch (next record: 71): 71 (uncompressed bytes in this segment=35268) in 0.02 seconds
+0048.223 (0) Table wcc_wc_admin_notes: finishing file(s) (2, 7 KB)
+0048.239 (0) Table wcc_wc_customer_lookup: Total expected rows (via COUNT): 0
+0048.241 (0) Table wcc_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1272) in 0.01 seconds
+0048.249 (0) Table wcc_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0048.269 (0) Table wcc_wc_download_log: Total expected rows (via COUNT): 0
+0048.272 (0) Table wcc_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=753) in 0.02 seconds
+0048.279 (0) Table wcc_wc_download_log: finishing file(s) (2, 0.4 KB)
+0048.295 (0) Table wcc_wc_order_addresses: Total expected rows (via COUNT): 0
+0048.297 (0) Table wcc_wc_order_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1436) in 0.01 seconds
+0048.306 (0) Table wcc_wc_order_addresses: finishing file(s) (2, 0.5 KB)
+0048.320 (0) Table wcc_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0048.322 (0) Table wcc_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=721) in 0.01 seconds
+0048.328 (0) Table wcc_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0048.342 (0) Table wcc_wc_order_operational_data: Total expected rows (via COUNT): 0
+0048.344 (0) Table wcc_wc_order_operational_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1529) in 0.01 seconds
+0048.351 (0) Table wcc_wc_order_operational_data: finishing file(s) (2, 0.6 KB)
+0048.364 (0) Table wcc_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0048.366 (0) Table wcc_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1221) in 0.01 seconds
+0048.373 (0) Table wcc_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0048.386 (0) Table wcc_wc_order_stats: Total expected rows (via COUNT): 0
+0048.388 (0) Table wcc_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1229) in 0.01 seconds
+0048.394 (0) Table wcc_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0048.406 (0) Table wcc_wc_order_tax_lookup: Total expected rows (approximate): 0
+0048.407 (0) Table wcc_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=799) in 0.01 seconds
+0048.414 (0) Table wcc_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0048.428 (0) Table wcc_wc_orders: Total expected rows (via COUNT): 0
+0048.430 (0) Table wcc_wc_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1733) in 0.01 seconds
+0048.437 (0) Table wcc_wc_orders: finishing file(s) (2, 0.6 KB)
+0048.450 (0) Table wcc_wc_orders_meta: Total expected rows (via COUNT): 0
+0048.453 (0) Table wcc_wc_orders_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=770) in 0.01 seconds
+0048.461 (0) Table wcc_wc_orders_meta: finishing file(s) (2, 0.4 KB)
+0048.478 (0) Table wcc_wc_product_attributes_lookup: Total expected rows (approximate): 24
+0048.481 (0) Table wcc_wc_product_attributes_lookup: Rows added in this batch (next record: 1000): 24 (uncompressed bytes in this segment=1706) in 0.02 seconds
+0048.488 (0) Table wcc_wc_product_attributes_lookup: finishing file(s) (2, 0.6 KB)
+0048.504 (0) Table wcc_wc_product_download_directories: Total expected rows (via COUNT): 3
+0048.506 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0048.508 (0) Table wcc_wc_product_download_directories: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1011) in 0.02 seconds
+0048.515 (0) Table wcc_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0048.532 (0) Table wcc_wc_rate_limits: Total expected rows (via COUNT): 0
+0048.535 (0) Table wcc_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=704) in 0.02 seconds
+0048.542 (0) Table wcc_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0048.556 (0) Table wcc_wc_webhooks: Total expected rows (via COUNT): 0
+0048.558 (0) Table wcc_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1232) in 0.01 seconds
+0048.565 (0) Table wcc_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0048.582 (0) Table wcc_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0048.583 (0) Table wcc_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1065) in 0.01 seconds
+0048.591 (0) Table wcc_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0048.609 (0) Table wcc_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 2
+0048.611 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0048.614 (0) Table wcc_woocommerce_attribute_taxonomies: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1140) in 0.02 seconds
+0048.620 (0) Table wcc_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.5 KB)
+0048.634 (0) Table wcc_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0048.637 (0) Table wcc_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1540) in 0.01 seconds
+0048.644 (0) Table wcc_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0048.659 (0) Table wcc_woocommerce_log: Total expected rows (via COUNT): 0
+0048.661 (0) Table wcc_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=741) in 0.01 seconds
+0048.669 (0) Table wcc_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0048.681 (0) Table wcc_woocommerce_order_items: Total expected rows (via COUNT): 0
+0048.683 (0) Table wcc_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=745) in 0.01 seconds
+0048.690 (0) Table wcc_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0048.703 (0) Table wcc_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0048.705 (0) Table wcc_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=843) in 0.01 seconds
+0048.712 (0) Table wcc_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0048.727 (0) Table wcc_woocommerce_sessions: Total expected rows (via COUNT): 1
+0048.728 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0048.731 (0) Table wcc_woocommerce_sessions: Rows added in this batch (next record: 165): 1 (uncompressed bytes in this segment=2657) in 0.01 seconds
+0048.738 (0) Table wcc_woocommerce_sessions: finishing file(s) (2, 1.1 KB)
+0048.752 (0) Table wcc_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0048.757 (0) Table wcc_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=880) in 0.01 seconds
+0048.764 (0) Table wcc_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0048.778 (0) Table wcc_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0048.780 (0) Table wcc_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=779) in 0.01 seconds
+0048.787 (0) Table wcc_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0048.802 (0) Table wcc_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0048.809 (0) Table wcc_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=639) in 0.02 seconds
+0048.823 (0) Table wcc_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0048.837 (0) Table wcc_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0048.839 (0) Table wcc_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=854) in 0.01 seconds
+0048.847 (0) Table wcc_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0048.862 (0) Table wcc_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0048.865 (0) Table wcc_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1303) in 0.01 seconds
+0048.872 (0) Table wcc_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0048.890 (0) Table wcc_yoast_indexable: Total expected rows (via COUNT): 72
+0048.892 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0048.897 (0) Table wcc_yoast_indexable: Rows added in this batch (next record: 72): 72 (uncompressed bytes in this segment=56093) in 0.02 seconds
+0048.906 (0) Table wcc_yoast_indexable: finishing file(s) (2, 7.9 KB)
+0048.920 (0) Table wcc_yoast_indexable_hierarchy: Total expected rows (approximate): 65
+0048.925 (0) Table wcc_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 65 (uncompressed bytes in this segment=1841) in 0.01 seconds
+0048.932 (0) Table wcc_yoast_indexable_hierarchy: finishing file(s) (2, 0.6 KB)
+0048.956 (0) Table wcc_yoast_migrations: Total expected rows (via COUNT): 24
+0048.957 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0048.959 (0) Table wcc_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1274) in 0.01 seconds
+0048.967 (0) Table wcc_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0048.985 (0) Table wcc_yoast_primary_term: Total expected rows (via COUNT): 0
+0048.988 (0) Table wcc_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=866) in 0.02 seconds
+0048.995 (0) Table wcc_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0049.009 (0) Table wcc_yoast_seo_links: Total expected rows (via COUNT): 80
+0049.010 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0049.014 (0) Table wcc_yoast_seo_links: Rows added in this batch (next record: 80): 80 (uncompressed bytes in this segment=11879) in 0.01 seconds
+0049.021 (0) Table wcc_yoast_seo_links: finishing file(s) (2, 2.9 KB)
+0049.022 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_actionscheduler_actions
+0049.023 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_actionscheduler_claims
+0049.024 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_actionscheduler_groups
+0049.025 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_actionscheduler_logs
+0049.026 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_commentmeta
+0049.028 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_comments
+0049.029 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_links
+0049.030 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_options
+0049.031 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_postmeta
+0049.032 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_posts
+0049.033 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_term_relationships
+0049.034 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_term_taxonomy
+0049.036 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_termmeta
+0049.036 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_terms
+0049.037 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_usermeta
+0049.038 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_users
+0049.039 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_wc_admin_note_actions
+0049.040 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_wc_admin_notes
+0049.041 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_wc_category_lookup
+0049.041 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_wc_customer_lookup
+0049.042 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_wc_download_log
+0049.043 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_wc_order_addresses
+0049.044 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_wc_order_coupon_lookup
+0049.045 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_wc_order_operational_data
+0049.045 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_wc_order_product_lookup
+0049.046 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_wc_order_stats
+0049.047 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_wc_order_tax_lookup
+0049.048 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_wc_orders
+0049.049 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_wc_orders_meta
+0049.050 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_wc_product_attributes_lookup
+0049.051 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_wc_product_download_directories
+0049.052 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_wc_product_meta_lookup
+0049.053 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_wc_rate_limits
+0049.054 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_wc_reserved_stock
+0049.054 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_wc_tax_rate_classes
+0049.055 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_wc_webhooks
+0049.056 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_woocommerce_api_keys
+0049.057 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_woocommerce_attribute_taxonomies
+0049.058 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_woocommerce_downloadable_product_permissions
+0049.059 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_woocommerce_log
+0049.060 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_woocommerce_order_itemmeta
+0049.061 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_woocommerce_order_items
+0049.062 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_woocommerce_payment_tokenmeta
+0049.063 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_woocommerce_payment_tokens
+0049.064 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_woocommerce_sessions
+0049.065 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_woocommerce_shipping_zone_locations
+0049.067 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_woocommerce_shipping_zone_methods
+0049.068 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_woocommerce_shipping_zones
+0049.070 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_woocommerce_tax_rate_locations
+0049.071 (0) Skipping table (lacks our prefix (wcc_)): wpwcc_woocommerce_tax_rates
+0049.072 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\wc_course/wp-content/updraft/backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db.gz (line 1976, C:\xampp\htdocs\wc_course\wp-content\plugins\updraftplus\backup.php)
+0049.075 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_options.table.tmpr2622.gz (1/105/fopen): adding to final database dump
+0049.082 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_options.table.gz (2/105/fopen): adding to final database dump
+0049.084 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_users.table.tmpr2.gz (3/105/fopen): adding to final database dump
+0049.086 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_users.table.gz (4/105/fopen): adding to final database dump
+0049.087 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_usermeta.table.tmpr65.gz (5/105/fopen): adding to final database dump
+0049.088 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_usermeta.table.gz (6/105/fopen): adding to final database dump
+0049.089 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_actionscheduler_actions.table.tmpr106.gz (7/105/fopen): adding to final database dump
+0049.090 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_actionscheduler_actions.table.gz (8/105/fopen): adding to final database dump
+0049.092 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_actionscheduler_claims.table.tmpr0.gz (9/105/fopen): adding to final database dump
+0049.093 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_actionscheduler_claims.table.gz (10/105/fopen): adding to final database dump
+0049.094 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_actionscheduler_groups.table.tmpr6.gz (11/105/fopen): adding to final database dump
+0049.095 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_actionscheduler_groups.table.gz (12/105/fopen): adding to final database dump
+0049.096 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_actionscheduler_logs.table.tmpr200.gz (13/105/fopen): adding to final database dump
+0049.097 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_actionscheduler_logs.table.gz (14/105/fopen): adding to final database dump
+0049.098 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_commentmeta.table.tmpr0.gz (15/105/fopen): adding to final database dump
+0049.099 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_commentmeta.table.gz (16/105/fopen): adding to final database dump
+0049.100 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_comments.table.tmpr2.gz (17/105/fopen): adding to final database dump
+0049.101 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_comments.table.gz (18/105/fopen): adding to final database dump
+0049.102 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_links.table.tmpr0.gz (19/105/fopen): adding to final database dump
+0049.103 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_links.table.gz (20/105/fopen): adding to final database dump
+0049.104 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_postmeta.table.tmpr1147.gz (21/105/fopen): adding to final database dump
+0049.106 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_postmeta.table.gz (22/105/fopen): adding to final database dump
+0049.108 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_posts.table.tmpr205.gz (23/105/fopen): adding to final database dump
+0049.110 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_posts.table.gz (24/105/fopen): adding to final database dump
+0049.112 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_term_relationships.table.tmpr100001.gz (25/105/fopen): adding to final database dump
+0049.113 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_term_relationships.table.gz (26/105/fopen): adding to final database dump
+0049.115 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_term_taxonomy.table.tmpr35.gz (27/105/fopen): adding to final database dump
+0049.116 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_term_taxonomy.table.gz (28/105/fopen): adding to final database dump
+0049.117 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_termmeta.table.tmpr22.gz (29/105/fopen): adding to final database dump
+0049.119 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_termmeta.table.gz (30/105/fopen): adding to final database dump
+0049.120 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_terms.table.tmpr35.gz (31/105/fopen): adding to final database dump
+0049.121 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_terms.table.gz (32/105/fopen): adding to final database dump
+0049.122 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_category_lookup.table.tmpr1001.gz (33/105/fopen): adding to final database dump
+0049.123 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_category_lookup.table.gz (34/105/fopen): adding to final database dump
+0049.124 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_product_meta_lookup.table.tmpr72.gz (35/105/fopen): adding to final database dump
+0049.125 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_product_meta_lookup.table.gz (36/105/fopen): adding to final database dump
+0049.126 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_reserved_stock.table.tmpr1.gz (37/105/fopen): adding to final database dump
+0049.127 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_reserved_stock.table.gz (38/105/fopen): adding to final database dump
+0049.128 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_tax_rate_classes.table.tmpr3.gz (39/105/fopen): adding to final database dump
+0049.129 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_tax_rate_classes.table.gz (40/105/fopen): adding to final database dump
+0049.131 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_order_itemmeta.table.tmpr0.gz (41/105/fopen): adding to final database dump
+0049.132 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_order_itemmeta.table.gz (42/105/fopen): adding to final database dump
+0049.133 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/105/fopen): adding to final database dump
+0049.134 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_payment_tokenmeta.table.gz (44/105/fopen): adding to final database dump
+0049.136 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_admin_note_actions.table.tmpr3444.gz (45/105/fopen): adding to final database dump
+0049.137 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_admin_note_actions.table.gz (46/105/fopen): adding to final database dump
+0049.138 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_admin_notes.table.tmpr72.gz (47/105/fopen): adding to final database dump
+0049.139 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_admin_notes.table.gz (48/105/fopen): adding to final database dump
+0049.140 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_customer_lookup.table.tmpr0.gz (49/105/fopen): adding to final database dump
+0049.141 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_customer_lookup.table.gz (50/105/fopen): adding to final database dump
+0049.142 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_download_log.table.tmpr0.gz (51/105/fopen): adding to final database dump
+0049.143 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_download_log.table.gz (52/105/fopen): adding to final database dump
+0049.144 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_order_addresses.table.tmpr0.gz (53/105/fopen): adding to final database dump
+0049.145 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_order_addresses.table.gz (54/105/fopen): adding to final database dump
+0049.146 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_order_coupon_lookup.table.tmpr1.gz (55/105/fopen): adding to final database dump
+0049.148 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_order_coupon_lookup.table.gz (56/105/fopen): adding to final database dump
+0049.149 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_order_operational_data.table.tmpr0.gz (57/105/fopen): adding to final database dump
+0049.150 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_order_operational_data.table.gz (58/105/fopen): adding to final database dump
+0049.151 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_order_product_lookup.table.tmpr0.gz (59/105/fopen): adding to final database dump
+0049.153 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_order_product_lookup.table.gz (60/105/fopen): adding to final database dump
+0049.154 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_order_stats.table.tmpr0.gz (61/105/fopen): adding to final database dump
+0049.155 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_order_stats.table.gz (62/105/fopen): adding to final database dump
+0049.156 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_order_tax_lookup.table.tmpr1.gz (63/105/fopen): adding to final database dump
+0049.157 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_order_tax_lookup.table.gz (64/105/fopen): adding to final database dump
+0049.158 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_orders.table.tmpr0.gz (65/105/fopen): adding to final database dump
+0049.159 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_orders.table.gz (66/105/fopen): adding to final database dump
+0049.160 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_orders_meta.table.tmpr0.gz (67/105/fopen): adding to final database dump
+0049.161 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_orders_meta.table.gz (68/105/fopen): adding to final database dump
+0049.163 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_product_attributes_lookup.table.tmpr1001.gz (69/105/fopen): adding to final database dump
+0049.164 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_product_attributes_lookup.table.gz (70/105/fopen): adding to final database dump
+0049.165 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_product_download_directories.table.tmpr4.gz (71/105/fopen): adding to final database dump
+0049.166 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_product_download_directories.table.gz (72/105/fopen): adding to final database dump
+0049.167 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_rate_limits.table.tmpr0.gz (73/105/fopen): adding to final database dump
+0049.169 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_rate_limits.table.gz (74/105/fopen): adding to final database dump
+0049.170 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_webhooks.table.tmpr0.gz (75/105/fopen): adding to final database dump
+0049.171 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_wc_webhooks.table.gz (76/105/fopen): adding to final database dump
+0049.172 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_api_keys.table.tmpr0.gz (77/105/fopen): adding to final database dump
+0049.173 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_api_keys.table.gz (78/105/fopen): adding to final database dump
+0049.174 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_attribute_taxonomies.table.tmpr3.gz (79/105/fopen): adding to final database dump
+0049.175 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_attribute_taxonomies.table.gz (80/105/fopen): adding to final database dump
+0049.176 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_downloadable_product_permissions.table.tmpr0.gz (81/105/fopen): adding to final database dump
+0049.177 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_downloadable_product_permissions.table.gz (82/105/fopen): adding to final database dump
+0049.178 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_log.table.tmpr0.gz (83/105/fopen): adding to final database dump
+0049.179 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_log.table.gz (84/105/fopen): adding to final database dump
+0049.180 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_order_items.table.tmpr0.gz (85/105/fopen): adding to final database dump
+0049.182 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_order_items.table.gz (86/105/fopen): adding to final database dump
+0049.183 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_payment_tokens.table.tmpr0.gz (87/105/fopen): adding to final database dump
+0049.185 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_payment_tokens.table.gz (88/105/fopen): adding to final database dump
+0049.186 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_sessions.table.tmpr166.gz (89/105/fopen): adding to final database dump
+0049.188 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_sessions.table.gz (90/105/fopen): adding to final database dump
+0049.189 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_shipping_zone_locations.table.tmpr0.gz (91/105/fopen): adding to final database dump
+0049.190 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_shipping_zone_locations.table.gz (92/105/fopen): adding to final database dump
+0049.191 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_shipping_zone_methods.table.tmpr0.gz (93/105/fopen): adding to final database dump
+0049.192 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_shipping_zone_methods.table.gz (94/105/fopen): adding to final database dump
+0049.193 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_shipping_zones.table.tmpr0.gz (95/105/fopen): adding to final database dump
+0049.195 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_shipping_zones.table.gz (96/105/fopen): adding to final database dump
+0049.196 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_tax_rate_locations.table.tmpr0.gz (97/105/fopen): adding to final database dump
+0049.197 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_tax_rate_locations.table.gz (98/105/fopen): adding to final database dump
+0049.198 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_tax_rates.table.tmpr0.gz (99/105/fopen): adding to final database dump
+0049.202 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_woocommerce_tax_rates.table.gz (100/105/fopen): adding to final database dump
+0049.203 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_yoast_indexable.table.tmpr73.gz (101/105/fopen): adding to final database dump
+0049.204 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_yoast_indexable.table.gz (102/105/fopen): adding to final database dump
+0049.205 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_yoast_indexable_hierarchy.table.tmpr1001.gz (103/105/fopen): adding to final database dump
+0049.207 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_yoast_indexable_hierarchy.table.gz (104/105/fopen): adding to final database dump
+0049.208 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_yoast_migrations.table.tmpr25.gz (105/105/fopen): adding to final database dump
+0049.209 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_yoast_migrations.table.gz (106/105/fopen): adding to final database dump
+0049.210 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_yoast_primary_term.table.tmpr0.gz (107/105/fopen): adding to final database dump
+0049.211 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_yoast_primary_term.table.gz (108/105/fopen): adding to final database dump
+0049.212 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_yoast_seo_links.table.tmpr81.gz (109/105/fopen): adding to final database dump
+0049.214 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db-table-wcc_yoast_seo_links.table.gz (110/105/fopen): adding to final database dump
+0049.276 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db.gz: finished writing out complete database file (300.9 KB)
+0049.297 (0) Total database tables backed up: 55 (backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db.gz, size: 308223, sha1: cd55353e274f4aed69dcb4bae5b74ec861e8a0fd, sha256: 19957404a682591efe4a0c16ba4486f37b1c5c7e442d6a5c900d8908be07d741)
+0049.304 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-plugins.zip: plugins: This file has already been successfully uploaded
+0049.305 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-themes.zip: themes: This file has already been successfully uploaded
+0049.306 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-uploads.zip: uploads: This file has already been successfully uploaded
+0049.307 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-others.zip: others: This file has already been successfully uploaded
+0049.308 (0) backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db.gz: db: This file has not yet been successfully uploaded: will queue
+0049.309 (0) Saving backup history. Total backup size: 64.7 MB
+0049.311 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0049.315 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0049.315 (0) No remote despatch: user chose no remote backup service
+0049.316 (0) Recording as successfully uploaded: backup_2023-11-27-0710_Woocommerce_Course_fd74781ea1ec-db.gz
+0049.321 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0049.323 (0) Number of backup sets in history: 2; groups (db): 1
+0049.323 (0) Examining (for databases) backup set with group_id=0, nonce=fd74781ea1ec, datestamp=1701069028 (Nov 27 2023 07:10:28)
+0049.324 (0) This backup set is the backup set just made, so will not be deleted.
+0049.324 (0) Examining (for databases) backup set with group_id=0, nonce=40bbf8b41e25, datestamp=1699875360 (Nov 13 2023 11:36:00)
+0049.324 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0049.325 (0) Number of backup sets in history: 2; groups (files): 1
+0049.326 (0) Examining (for files) backup set with nonce=fd74781ea1ec, datestamp=1701069028 (Nov 27 2023 07:10:28)
+0049.326 (0) This backup set is the backup set just made, so will not be deleted.
+0049.327 (0) This backup set is the backup set just made, so will not be deleted.
+0049.327 (0) This backup set is the backup set just made, so will not be deleted.
+0049.327 (0) This backup set is the backup set just made, so will not be deleted.
+0049.327 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0049.327 (0) Examining (for files) backup set with nonce=40bbf8b41e25, datestamp=1699875360 (Nov 13 2023 11:36:00)
+0049.327 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0049.328 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0049.330 (0) Resume backup (fd74781ea1ec, 0): finish run
+0049.333 (0) Decremented the semaphore (fd) by 1
+0049.336 (0) Semaphore (fd) unlocked
+0049.339 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0049.342 (0) No email will/can be sent - the user has not configured an email address.
+0049.343 (0) The backup succeeded and is now complete
