@@ -157,6 +157,7 @@ get_header(); ?>
 							$args = array(
 								'post_type'			=> 'post',
 								'posts_per_page'	=> 2,
+								'ignore_sticky_posts' => true
 							);
 
 							$blog_posts = new WP_Query( $args );
@@ -178,6 +179,9 @@ get_header(); ?>
 												<h3>
 													<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 												</h3>
+												<span class="pub-date">
+													<a href="<?php the_permalink(); ?>"><?php echo esc_html( get_the_date() ); ?></a>
+												</span>
 												<div class="excerpt"><?php the_excerpt(); ?></div>
 											</article>
 										<?php
