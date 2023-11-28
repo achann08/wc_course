@@ -42,7 +42,8 @@
 							<?php 
 								wp_nav_menu( 
 									array(
-										'theme_location' 	=> 'fancy_lab_footer_menu'
+										'theme_location' 	=> 'fancy_lab_footer_menu',
+										'depth'				=> 1,
 									) 
 								); 
 							?>							
