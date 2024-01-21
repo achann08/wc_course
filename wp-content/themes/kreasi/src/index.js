@@ -1,5 +1,5 @@
 import "../css/style.scss";
 
-import test from "./modules/test";
+import scriptNavbar from "./modules/script-navbar";
 
-const testing = new test();
+const navbar = new scriptNavbar();

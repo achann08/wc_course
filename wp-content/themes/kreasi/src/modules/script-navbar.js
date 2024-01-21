@@ -1,15 +1,15 @@
 import $ from 'jquery';
 
-class test{
+class scriptNavbar{
     constructor(){
         this.events();
     }
     events(){
         $(document).ready(function(){
-            // alert("hello world");
+            alert("hello world from script navbar");
         });
     }
 
 }
 
-export default test;
+export default scriptNavbar;
