@@ -14,7 +14,7 @@ require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
  function kreasi_scripts(){
 	wp_enqueue_script('kreasi_enqueue_scripts', get_template_directory_uri() . '/build/index.js', array('jquery'), '1.0', true);
 	wp_enqueue_style('kreasi_enqueue_style', get_template_directory_uri() . '/build/style-index.css');
-//hello world
+
 	if( !wp_script_is('jquery')){
         wp_enqueue_script('jquery');
     }
