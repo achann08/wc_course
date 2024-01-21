@@ -29,7 +29,7 @@
         <section class="bg-light">
             <div class="container">
                 <div class="row d-flex justify-content-center">
-                    <div class="navbar-brand col-md-3 col-12 col-lg-2 text-center text-md-left">
+                    <div class="navbar-brand col-md-3 col-12 col-lg-2 text-center text-md-start">
                         <a href="<?php echo esc_url( home_url( '/' ) ) ?>">
                             <?php if( has_custom_logo() ): ?>
                                 <?php the_custom_logo(); ?>

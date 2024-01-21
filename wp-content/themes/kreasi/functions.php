@@ -12,6 +12,13 @@
 require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
 
  function kreasi_scripts(){
+	wp_enqueue_script('kreasi_enqueue_scripts', get_template_directory_uri() . '/build/index.js', array('jquery'), '1.0', true);
+	wp_enqueue_style('kreasi_enqueue_style', get_template_directory_uri() . '/build/style-index.css');
+
+	if( !wp_script_is('jquery')){
+        wp_enqueue_script('jquery');
+    }
+
 	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/inc/bootstrap.min.js', array( 'jquery' ), '5.0.2', true );
 	wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/inc/bootstrap.min.css', array(), '5.0.2', 'all' );
 	wp_enqueue_style( 'kreasi-style', get_stylesheet_uri(), array(), filemtime( get_template_directory() . '/style.css' ), 'all' );
