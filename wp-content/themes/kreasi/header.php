@@ -69,7 +69,7 @@
                                         <?php
                                         wp_nav_menu(array(
                                             'theme_location'  => 'kreasi_main_menu',
-                                            'depth'           => 3, 
+                                            'depth'           => 4, 
                                             'container'       => false,
                                             'menu_class'      => 'navbar-nav me-auto mb-2 mb-lg-0',
                                             'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
