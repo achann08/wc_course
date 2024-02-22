@@ -1,0 +1,52 @@
+2024-02-22T14:11:19+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function {closure}(), 4 passed in C:\xampp\htdocs\wc_course\wp-includes\class-wp-hook.php on line 324 and exactly 5 expected in C:\xampp\htdocs\wc_course\wp-content\themes\kreasi\functions.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wc_course\wp-includes\class-wp-hook.php(324): {closure}(Array, Object(WP_Post), Object(stdClass), 0)
+#1 C:\xampp\htdocs\wc_course\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wc_course\wp-content\themes\kreasi\inc\class-wp-bootstrap-navwalker.php(240): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass), 0)
+#3 C:\xampp\htdocs\wc_course\wp-includes\class-wp-walker.php(147): WP_Bootstrap_Navwalker->start_el('<li  id="menu-i...', Object(WP_Post), 0, Object(stdClass))
+#4 C:\xampp\htdocs\wc_course\wp-includes\class-wp-walker.php(247): Walker->display_element(Object(WP_Post), Array, 3, 0, Array, '<li  id="menu-i...')
+#5 C:\xampp\htdocs\wc_course\wp-includes\nav-menu-template.php in C:\xampp\htdocs\wc_course\wp-content\themes\kreasi\functions.php on line 49
+
+2024-02-22T14:11:21+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function {closure}(), 4 passed in C:\xampp\htdocs\wc_course\wp-includes\class-wp-hook.php on line 324 and exactly 5 expected in C:\xampp\htdocs\wc_course\wp-content\themes\kreasi\functions.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wc_course\wp-includes\class-wp-hook.php(324): {closure}(Array, Object(WP_Post), Object(stdClass), 0)
+#1 C:\xampp\htdocs\wc_course\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wc_course\wp-content\themes\kreasi\inc\class-wp-bootstrap-navwalker.php(240): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass), 0)
+#3 C:\xampp\htdocs\wc_course\wp-includes\class-wp-walker.php(147): WP_Bootstrap_Navwalker->start_el('<li  id="menu-i...', Object(WP_Post), 0, Object(stdClass))
+#4 C:\xampp\htdocs\wc_course\wp-includes\class-wp-walker.php(247): Walker->display_element(Object(WP_Post), Array, 3, 0, Array, '<li  id="menu-i...')
+#5 C:\xampp\htdocs\wc_course\wp-includes\nav-menu-template.php in C:\xampp\htdocs\wc_course\wp-content\themes\kreasi\functions.php on line 49
+
+2024-02-22T14:15:01+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\wc_course\wp-content\themes\kreasi\functions.php on line 64
+
+2024-02-22T14:21:38+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Post as array in C:\xampp\htdocs\wc_course\wp-content\themes\kreasi\functions.php:53
+Stack trace:
+#0 C:\xampp\htdocs\wc_course\wp-includes\class-wp-hook.php(324): {closure}(Array, Object(WP_Post), Object(stdClass), 0)
+#1 C:\xampp\htdocs\wc_course\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wc_course\wp-content\themes\kreasi\inc\class-wp-bootstrap-navwalker.php(240): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass), 0)
+#3 C:\xampp\htdocs\wc_course\wp-includes\class-wp-walker.php(147): WP_Bootstrap_Navwalker->start_el('<li  id="menu-i...', Object(WP_Post), 0, Object(stdClass))
+#4 C:\xampp\htdocs\wc_course\wp-includes\class-wp-walker.php(247): Walker->display_element(Object(WP_Post), Array, 3, 0, Array, '<li  id="menu-i...')
+#5 C:\xampp\htdocs\wc_course\wp-includes\nav-menu-template.php(616): Walker->walk(Array, 3, Object(stdClass))
+#6 C:\xampp\htdocs\wc_course\wp-includes\nav-menu-template.php(236): in C:\xampp\htdocs\wc_course\wp-content\themes\kreasi\functions.php on line 53
+
+2024-02-22T14:21:39+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Post as array in C:\xampp\htdocs\wc_course\wp-content\themes\kreasi\functions.php:53
+Stack trace:
+#0 C:\xampp\htdocs\wc_course\wp-includes\class-wp-hook.php(324): {closure}(Array, Object(WP_Post), Object(stdClass), 0)
+#1 C:\xampp\htdocs\wc_course\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wc_course\wp-content\themes\kreasi\inc\class-wp-bootstrap-navwalker.php(240): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass), 0)
+#3 C:\xampp\htdocs\wc_course\wp-includes\class-wp-walker.php(147): WP_Bootstrap_Navwalker->start_el('<li  id="menu-i...', Object(WP_Post), 0, Object(stdClass))
+#4 C:\xampp\htdocs\wc_course\wp-includes\class-wp-walker.php(247): Walker->display_element(Object(WP_Post), Array, 3, 0, Array, '<li  id="menu-i...')
+#5 C:\xampp\htdocs\wc_course\wp-includes\nav-menu-template.php(616): Walker->walk(Array, 3, Object(stdClass))
+#6 C:\xampp\htdocs\wc_course\wp-includes\nav-menu-template.php(236): in C:\xampp\htdocs\wc_course\wp-content\themes\kreasi\functions.php on line 53
+
+2024-02-22T14:50:04+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed in C:\xampp\htdocs\wc_course\wp-includes\class-wp-hook.php on line 326 and exactly 3 expected in C:\xampp\htdocs\wc_course\wp-content\themes\kreasi\functions.php:71
+Stack trace:
+#0 C:\xampp\htdocs\wc_course\wp-includes\class-wp-hook.php(326): {closure}(Object(stdClass))
+#1 C:\xampp\htdocs\wc_course\wp-includes\plugin.php(205): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 C:\xampp\htdocs\wc_course\wp-content\themes\kreasi\inc\class-wp-bootstrap-navwalker.php(166): apply_filters('nav_menu_item_a...', Object(stdClass), Object(WP_Post), 0)
+#3 C:\xampp\htdocs\wc_course\wp-includes\class-wp-walker.php(147): WP_Bootstrap_Navwalker->start_el('', Object(WP_Post), 0, Object(stdClass))
+#4 C:\xampp\htdocs\wc_course\wp-includes\class-wp-walker.php(247): Walker->display_element(Object(WP_Post), Array, 3, 0, Array, '')
+#5 C:\xampp\htdocs\wc_course\wp-includes\nav-menu-template.php(616): Walker->walk(Array, 3, Object(stdClass))
+#6 C:\xampp in C:\xampp\htdocs\wc_course\wp-content\themes\kreasi\functions.php on line 71
+
+2024-02-22T15:22:28+00:00 CRITICAL syntax error, unexpected '$atts' (T_VARIABLE) in C:\xampp\htdocs\wc_course\wp-content\themes\kreasi\functions.php on line 57
+

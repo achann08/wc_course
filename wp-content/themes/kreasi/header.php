@@ -69,11 +69,11 @@
                                         <?php
                                         wp_nav_menu(array(
                                             'theme_location'  => 'kreasi_main_menu',
-                                            'depth'           => 4, 
-                                            'container'       => false,
+                                            'depth'           => 3, 
+                                            'container'       => 'div',
                                             'menu_class'      => 'navbar-nav me-auto mb-2 mb-lg-0',
                                             'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
-                                            'walker'          => new WP_Bootstrap_Navwalker(),
+                                            'walker'          => new WP_Bootstrap_Navwalker()
                                         ));
                                         ?>
                                     </div>
