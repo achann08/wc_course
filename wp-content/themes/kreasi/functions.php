@@ -50,7 +50,8 @@ require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
     // Cek jika menu item memiliki submenu
 
     if ( in_array( 'menu-item-has-children', $item->classes ) ) {
-		$args->before = '<a href="'.$item->url.'" class="nav-link">'.$item->title.'</a>';
+		$args->before = '<div class="btn-group">';
+		$args->before .= '<a href="'.$item->url.'" class="nav-link">'.$item->title.'</a>';
         $atts['class'] .= ' dropdown-toggle dropdown-toggle-split';
 		// Tambahkan data-toggle dan aria-haspopup ke atribut
 		$atts['data-toggle'] = 'dropdown';
@@ -64,7 +65,8 @@ add_filter( 'nav_menu_item_title', function( $title, $item, $args, $depth ) {
     // Cek jika menu item memiliki submenu
     if ( in_array( 'menu-item-has-children', $item->classes ) ) {
         // Bungkus judul dengan tag span dan tambahkan class 'visually-hidden'
-        $title = '<span class="visually-hidden">' . esc_html__( 'Toggle Dropdown', 'text-domain' ) . '</span>';
+        $title = '<span class="visually-hidden">Toggle Dropdown</span>';
+		$args->after = '</div>';
     }
     // Kembalikan judul yang telah dimodifikasi
     return $title;

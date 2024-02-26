@@ -65,18 +65,18 @@
                                     <button class="navbar-toggler ms-auto mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                         <span class="navbar-toggler-icon"></span>
                                     </button>
-                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                        <?php
+                                    <?php
                                         wp_nav_menu(array(
                                             'theme_location'  => 'kreasi_main_menu',
                                             'depth'           => 3, 
                                             'container'       => 'div',
+                                            'container_class'   => 'collapse navbar-collapse',
+                                            'container_id'      => 'navbarSupportedContent',
                                             'menu_class'      => 'navbar-nav me-auto mb-2 mb-lg-0',
                                             'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
                                             'walker'          => new WP_Bootstrap_Navwalker()
                                         ));
-                                        ?>
-                                    </div>
+                                    ?>
                                 </nav>
                             </div>
                         </div>
