@@ -64,9 +64,12 @@
     padding-right: 3%;
 }
 
-.main-menu .dropdown-toggle::after {
-    vertical-align: 0.155em;
-    margin-left: 2vh;
+.main-menu .dropdown-menu .btn-group {
+    display: inline-flex;
+}
+
+.main-menu .dropdown-menu .btn-group .nav-link {
+    color: white !important;
 }
 
 .main-menu ul li .dropdown-menu .dropdown > a::after {

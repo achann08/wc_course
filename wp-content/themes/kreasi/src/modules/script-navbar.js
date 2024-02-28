@@ -8,13 +8,14 @@ class scriptNavbar {
     events() {
         $(document).ready(() => {
             // Toggle dropdown-menu on click
-            $('.main-menu .dropdown > a').on('click', function (e) {
+            $('.main-menu .dropdown-toggle').on('click', function (e) {
                 e.preventDefault();
                 // Close other dropdown-menus within the same level
-                $(this).parent().siblings('.dropdown.show').removeClass('show');
+                $(this).closest('.menu-item-has-children').siblings('.menu-item-has-children').find('.dropdown-menu').removeClass('show');
                 // Toggle class for the clicked dropdown-menu
-                $(this).next('.dropdown-menu').toggleClass('show');
+                $(this).closest('.menu-item-has-children').find('.dropdown-menu').toggleClass('show');
             });
+            
 
             // Close dropdown-menus when clicking outside of them
             $(document).on('click', function (e) {
