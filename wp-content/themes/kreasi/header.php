@@ -68,7 +68,7 @@
                                     <?php
                                         wp_nav_menu(array(
                                             'theme_location'  => 'kreasi_main_menu',
-                                            'depth'           => 3, 
+                                            'depth'           => 4, 
                                             'container'       => 'div',
                                             'container_class'   => 'collapse navbar-collapse',
                                             'container_id'      => 'navbarSupportedContent',

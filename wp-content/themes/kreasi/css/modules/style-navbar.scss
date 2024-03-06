@@ -10,6 +10,9 @@
     font-weight: 500;
     border-radius: 0;
 }
+.main-menu span[itemprop="name"] {
+    font-weight: 500;
+}
 
 .main-menu ul li {
     display: inline;
@@ -20,18 +23,44 @@
     margin: 0;
 }
 
-.main-menu > ul li a,
+.main-menu > ul > li > a,
 .navbar-light .navbar-nav .nav-link {
     color: #303030;
     text-decoration: none;
-    padding: 7px 15px 20px;
+    padding: 0.5rem;
+    transition: background-color 0.3s, color 0.3s; /* Added transition */
+    display: flex; /* Added display flex */
+    align-items: center; /* Added align items center */
 }
 
-.main-menu ul li a.nav-link:first-child {
-    padding-left: 0 !important;
+.main-menu > ul > li:hover > a { /* Different color for hover */
+    background-color: #f2f2f2;
 }
 
-.main-menu ul li ul {
+.main-menu > ul > li > .dropdown-toggle { /* Adjusted styles for dropdown toggle */
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    border: none;
+    background-color: transparent; /* Ubah ke transparent */
+    color: inherit;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.main-menu .dropdown-menu {
+    background-color: transparent;
+}
+
+/* Added more specific selector for dropdown menu */
+.main-menu .dropdown-menu > .show > .dropdown-menu {
+    background-color: #000;
+}
+
+.main-menu .dropdown-menu .nav-item {
     background-color: #000;
 }
 
@@ -44,17 +73,26 @@
     color: #fff;
 }
 
-.main-menu .navbar-nav .active > .nav-link{
+.main-menu .navbar-nav .nav-item.current_page_item > .nav-link,
+.main-menu .navbar-nav .nav-item.current_page_item .btn-group > .nav-link,
+.main-menu .navbar-nav .nav-item.current_page_ancestor > .nav-link,
+.main-menu .navbar-nav .nav-item.current_page_parent > .nav-link,
+.main-menu .navbar-nav .nav-item.current_page_ancestor .btn-group > .nav-link,
+.main-menu .navbar-nav .nav-item.current_page_parent .btn-group > .nav-link,
+.main-menu .navbar-nav .nav-item .dropdown-menu .nav-item.current_page_item .btn-group > .nav-link {
     color: #CA2424;
 }
 
+
+.main-menu .nav-link:focus,
+.main-menu .nav-link:hover,
 .main-menu .dropdown-item:focus,
 .main-menu .dropdown-item:hover {
-    color: #fff;
-    background-color: #272c33;
+    color: #fff !important;
+    background-color: rgba(128, 128, 128, 0.5); /* Abu-abu dengan opacity 0.5 */
 }
 
-.main-menu .dropdown-item.active,
+.main-menu .nav-link:active,
 .main-menu .dropdown-item:active {
     background-color: #d2335b;
 }
@@ -70,6 +108,7 @@
 
 .main-menu .dropdown-menu .btn-group .nav-link {
     color: white !important;
+    text-wrap: nowrap !important;
 }
 
 .main-menu ul li .dropdown-menu .dropdown > a::after {
@@ -93,6 +132,7 @@
 
 .main-menu .dropdown-menu .dropdown-menu {
     top: -1px;
+    bottom: -1px;
     left: 100%;
 }
 
