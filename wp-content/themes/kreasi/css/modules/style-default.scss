@@ -1,0 +1,22 @@
+/* Default styles */
+
+body {
+    padding-top: 8em;
+}
+
+body, .site {
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+   /* Styles for devices with a maximum width of 768px (e.g., tablets) */
+}
+
+@media (max-width: 480px) {
+    /* Styles for devices with a maximum width of 480px (e.g., smartphones) */
+    body {
+        padding-top: 15em;
+    }
+}

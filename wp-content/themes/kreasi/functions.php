@@ -20,6 +20,7 @@ require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
     }
 
 	wp_enqueue_style( 'dashicons' );
+	wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
 
 	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/inc/bootstrap.min.js', array( 'jquery' ), '5.0.2', true );
 	wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/inc/bootstrap.min.css', array(), '5.0.2', 'all' );
@@ -30,8 +31,7 @@ require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
  function kreasi_config(){
 	register_nav_menus(
 		array(
-			'kreasi_main_menu' => 'Kreasi Main Menu',
-			'kreasi_footer_menu' => 'Kreasi Footer Menu'
+			'kreasi_nav_menu' => 'Kreasi Nav Menu'
 		)
 	);
 
@@ -44,6 +44,32 @@ require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
 
  }
  add_action( 'after_setup_theme', 'kreasi_config', 0 );
+
+ function kreasi_sidebars(){
+	register_sidebar(
+		array(
+			'name' => 'Footer Sidebar 1',
+			'id' => 'kreasi-sidebar-footer1',
+			'description' => 'Drag and drop your widgets here',
+			'before_widget'	=> '<div id="%1$s" class="widget %2$s widget-wrapper col-12 col-md-3 p-3">', 
+			'after_widget'	=> '</div>',
+			'before_title'	=> '<p class="h4">',
+			'after_title'	=> '</p>'
+		)
+	);
+	register_sidebar(
+		array(
+			'name' => 'Footer Sidebar 2',
+			'id' => 'kreasi-sidebar-footer2',
+			'description' => 'Drag and drop your widgets here',
+			'before_widget'	=> '<div id="%1$s" class="widget %2$s widget-wrapper col-12 col-md-3 p-3">', 
+			'after_widget'	=> '</div>',
+			'before_title'	=> '<p class="h4">',
+			'after_title'	=> '</p>'
+		)
+	);
+ }
+ add_action('widgets_init', 'kreasi_sidebars');
 
 
  add_filter( 'nav_menu_link_attributes', function( $atts, $item, $args, $depth ) {

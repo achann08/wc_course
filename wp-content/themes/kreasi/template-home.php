@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
     <div class="container flex-fill">
         <div class="row">
             <?php if(have_posts()): ?>
@@ -12,5 +11,4 @@
             <?php endif; ?>
         </div>
     </div>
-
 <?php get_footer(); ?>

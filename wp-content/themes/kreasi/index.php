@@ -15,39 +15,31 @@
 get_header();
 
 ?>
-        <div class="content-area">
-            <main>
-                <section class="slider">Slider</section>
-                <section class="popular-product">Popular Products</section>
-                <section class="new-arrivals">New Arrivals</section>
-				<section class="deal-of-the-week">Deal of the Week</section>
-				<section class="theme-blog">
-                    <div class="container">
-                        <div class="row">
-                            <?php 
-                                if(have_posts()):
-                                    $blogs = get_posts(
-                                        array(
-                                            'post_type' => 'post',
-                                            'post_status' => 'publish',
-                                            'orderby' => 'post_date',
-                                            'order' => 'ASC',
-                                            'posts_per_page' =>  -1
-                                        )
-                                    );
-                            ?>
-                                <?php foreach($blogs as $blog): ?>
-                                    <article>
-                                        <h2><?php echo $blog->post_title; ?></h2>
-                                        <div><?php echo $blog->post_content; ?></div>
-                                    </article>
-                                <?php endforeach; ?>
-                            <?php else: ?>
-                                <p>Nothing to display.</p>
-                            <?php endif; ?>
-                        </div>
-                    </div>
-                </section>
-            </main>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-8 col-12">
+                <?php 
+                    if(have_posts()):
+                        $blogs = get_posts(
+                            array(
+                                'post_type' => 'post',
+                                'post_status' => 'publish',
+                                'orderby' => 'post_date',
+                                'order' => 'ASC',
+                                'posts_per_page' =>  -1
+                            )
+                        );
+                ?>
+                    <?php foreach($blogs as $blog): ?>
+                        <article>
+                            <h2><?php echo $blog->post_title; ?></h2>
+                            <div><?php echo $blog->post_content; ?></div>
+                        </article>
+                    <?php endforeach; ?>
+                <?php else: ?>
+                    <p>Nothing to display.</p>
+                <?php endif; ?>
+            </div>
         </div>
+    </div>
 <?php get_footer(); ?>
