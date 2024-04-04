@@ -42,10 +42,25 @@ require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
 		'flex_width'	=> true,
 	) );
 
+	add_image_size('kreasi-blog', 960, 640, array('center', 'center'));
+
  }
  add_action( 'after_setup_theme', 'kreasi_config', 0 );
 
  function kreasi_sidebars(){
+
+	register_sidebar(
+		array(
+			'name' => 'Kreasi Main Sidebar',
+			'id' => 'kreasi-main-sidebar',
+			'description' => 'Drag and drop your widget here',
+			'before_widget'	=> '<div id="%1$s" class="widget %2$s widget-wrapper">',
+			'after_widget' => '</div>',
+			'before_title' => '<p class="h4">',
+			'after_title' => '</p>'
+		)
+	);
+
 	register_sidebar(
 		array(
 			'name' => 'Footer Sidebar 1',
