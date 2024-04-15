@@ -1,2 +1,0 @@
-<br>
-<b>Fatal error</b>:  Trait 'Automattic\WooCommerce\Internal\Traits\AccessiblePrivateMethods' not found in <b>C:\xampp\htdocs\wc_course\wp-content\plugins\woocommerce\src\Internal\Admin\Logging\PageController.php</b> on line <b>18</b><br>

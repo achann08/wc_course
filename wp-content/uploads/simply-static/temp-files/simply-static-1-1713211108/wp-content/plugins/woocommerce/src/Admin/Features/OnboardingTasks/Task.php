@@ -1,0 +1,2 @@
+<br>
+<b>Fatal error</b>:  Trait 'Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskTraits' not found in <b>C:\xampp\htdocs\wc_course\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Task.php</b> on line <b>13</b><br>

@@ -1,0 +1,249 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"Fancy Lab v1.0.0\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"POT-Creation-Date: "
+"2023-11-22 21:47+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Your Team "
+"<translations@example."
+"com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit "
+"3.4.1\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:18
+msgid ""
+"Unfortunately, the page "
+"you tried to reach does "
+"not exist on this site"
+msgstr ""
+
+#: 404.php:23
+msgid ""
+"Take a Look at Our "
+"Latest Posts"
+msgstr ""
+
+#: archive.php:31
+#: index.php:33
+#: search.php:33
+msgid "Previous"
+msgstr ""
+
+#: archive.php:32
+#: index.php:34
+#: search.php:34
+msgid "Next"
+msgstr ""
+
+#: archive.php:37
+#: index.php:39
+#: template-home.php:188
+msgid "Nothing to display."
+msgstr ""
+
+#: comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid ""
+"One thought on &ldquo;"
+"%s&rdquo;"
+msgstr ""
+
+#: comments.php:34
+#, php-format
+msgctxt "comments title"
+msgid ""
+"%1$s thought on &ldquo;"
+"%2$s&rdquo;"
+msgid_plural ""
+"%1$s thoughts on &ldquo;"
+"%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:69
+msgid ""
+"Comments are closed."
+msgstr ""
+
+#: footer.php:39
+msgid ""
+"Copyright X - All Rights "
+"Reserved"
+msgstr ""
+
+#: functions.php:47
+msgid "Fancy Lab Main Menu"
+msgstr ""
+
+#: functions.php:48
+msgid ""
+"Fancy Lab Footer Menu"
+msgstr ""
+
+#: functions.php:120
+msgid ""
+"Fancy Lab Main Sidebar"
+msgstr ""
+
+#: functions.php:122
+msgid ""
+"Drag and drop your "
+"widget here"
+msgstr ""
+
+#: functions.php:129
+msgid "Sidebar Shop"
+msgstr ""
+
+#: functions.php:131
+msgid ""
+"Drag and drop your "
+"WooCommerce widgets here"
+msgstr ""
+
+#: functions.php:138
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: functions.php:140
+#: functions.php:149
+#: functions.php:158
+msgid ""
+"Drag and drop your "
+"widgets here"
+msgstr ""
+
+#: functions.php:147
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: functions.php:156
+msgid "Footer Sidebar 3"
+msgstr ""
+
+#: header.php:51
+msgid "My Account"
+msgstr ""
+
+#: header.php:54
+msgid "Logout"
+msgstr ""
+
+#: header.php:58
+msgid "Login / Register"
+msgstr ""
+
+#: header.php:72
+msgid "Toggle navigation"
+msgstr ""
+
+#: search.php:17
+msgid "Search results for"
+msgstr ""
+
+#: search.php:39
+msgid ""
+"There are no results for "
+"your query."
+msgstr ""
+
+#: template-home.php:77
+msgid "Popular products"
+msgstr ""
+
+#: template-home.php:85
+msgid "New Arrivals"
+msgstr ""
+
+#: template-home.php:106
+msgid "Deal of the Week"
+msgstr ""
+
+#: template-home.php:115
+msgid "% OFF"
+msgstr ""
+
+#: template-home.php:138
+msgid "Add to Cart"
+msgstr ""
+
+#: template-home.php:152
+msgid "News From Our Blog"
+msgstr ""
+
+#: template-parts/content-archive.php:23
+#: template-parts/content-search.php:23
+#: template-parts/content-single.php:15
+#: template-parts/content.php:23
+msgid "Published by"
+msgstr ""
+
+#: template-parts/content-archive.php:23
+#: template-parts/content-search.php:23
+#: template-parts/content-single.php:15
+#: template-parts/content.php:23
+msgid "on"
+msgstr ""
+
+#: template-parts/content-archive.php:26
+#: template-parts/content-search.php:26
+#: template-parts/content-single.php:18
+#: template-parts/content.php:26
+msgid "Categories"
+msgstr ""
+
+#: template-parts/content-archive.php:30
+#: template-parts/content-search.php:30
+#: template-parts/content-single.php:22
+#: template-parts/content.php:30
+msgid "Tags"
+msgstr ""
+
+#: template-parts/content-single.php:38
+msgid "Pages"
+msgstr ""

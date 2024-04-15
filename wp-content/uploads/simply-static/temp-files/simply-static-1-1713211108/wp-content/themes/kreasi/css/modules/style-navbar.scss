@@ -1,0 +1,176 @@
+/* Navbar Styles */
+.main-menu {
+    padding: 0;
+}
+
+.main-menu ul {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 0;
+}
+.main-menu span[itemprop="name"] {
+    font-weight: 500;
+    text-wrap: pretty;
+}
+
+.main-menu ul li {
+    margin: 0 5px 0 0;
+}
+
+.main-menu ul li:last-child {
+    margin: 0;
+}
+
+.main-menu > ul > li > a,
+.navbar-light .navbar-nav .nav-link {
+    color: #303030;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: background-color 0.3s, color 0.3s; /* Added transition */
+    display: flex; /* Added display flex */
+    align-items: center; /* Added align items center */
+}
+
+.main-menu > ul > li:hover > a { /* Different color for hover */
+    background-color: #f2f2f2;
+}
+
+.main-menu > ul > li > .dropdown-toggle { /* Adjusted styles for dropdown toggle */
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    border: none;
+    background-color: transparent; /* Ubah ke transparent */
+    color: inherit;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.main-menu .dropdown-menu {
+    background-color: transparent;
+    width: max-content !important;
+}
+
+/* Added more specific selector for dropdown menu */
+.main-menu .dropdown-menu > .show > .dropdown-menu {
+    background-color: #000;
+}
+
+.main-menu .dropdown-menu .nav-item {
+    background-color: #000;
+}
+
+.main-menu ul li ul li {
+    margin: 0;
+}
+
+.main-menu ul li ul li a {
+    padding: 0.5rem;
+    color: #fff;
+}
+
+
+.main-menu .dropdown .dropdown-menu .nav-item ul li {
+    margin-left: 8%;
+    position: relative;
+    padding-left: 1em;
+}
+
+.main-menu .dropdown-menu ul li::before {
+    font-family: "dashicons";
+    content: "\f474";
+    position: absolute;
+    transform: scaleX(-1);
+    font-size: larger;
+    color: #fff;
+    margin: 5px 3%;
+    left: -8%;
+}
+
+.main-menu .navbar-nav .nav-item.current_page_item > .nav-link,
+.main-menu .navbar-nav .nav-item.current_page_item .btn-group > .nav-link,
+.main-menu .navbar-nav .nav-item.current_page_ancestor > .nav-link,
+.main-menu .navbar-nav .nav-item.current_page_parent > .nav-link,
+.main-menu .navbar-nav .nav-item.current_page_ancestor .btn-group > .nav-link,
+.main-menu .navbar-nav .nav-item.current_page_parent .btn-group > .nav-link,
+.main-menu .navbar-nav .nav-item .dropdown-menu .nav-item.current_page_item .btn-group > .nav-link {
+    color: #CA2424;
+}
+
+
+.main-menu .nav-link:focus,
+.main-menu .nav-link:hover,
+.main-menu .dropdown-item:focus,
+.main-menu .dropdown-item:hover {
+    color: #fff !important;
+    background-color: rgba(128, 128, 128, 0.5); /* Abu-abu dengan opacity 0.5 */
+}
+
+.main-menu .nav-link:active,
+.main-menu .dropdown-item:active {
+    background-color: #d2335b;
+}
+
+.main-menu .navbar-toggler {
+    border: none;
+    padding-right: 3%;
+}
+
+.main-menu .dropdown-menu .btn-group {
+    display: inline-flex;
+}
+
+.main-menu .dropdown-menu .btn-group .nav-link {
+    color: white !important;
+    text-wrap: nowrap !important;
+}
+
+.main-menu ul li .dropdown-menu .dropdown > a::after {
+    display: inline-block;
+    margin-left: 0.355em;
+    vertical-align: 0.2em;
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+.main-menu .dropdown-menu li {
+    display: block;
+}
+.main-menu .dropdown-menu .show{
+    display: contents;
+    width: max-content;
+}
+
+.main-menu .dropdown-menu .dropdown-menu {
+    top: -1px;
+    bottom: -1px;
+    left: 100%;
+}
+
+.navbar-brand {
+    display: contents;
+}
+
+/* Responsive styles */
+@media (max-width: 767px){
+    .main-menu {
+        border-top: 2px solid #f2f2f2;
+        padding: 2%;
+        margin-top: 2%;
+    }
+    .dropdown-menu{
+        min-width: 22rem !important;
+    }   
+}

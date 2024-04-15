@@ -1,4 +1,0 @@
-<br>
-<b>Warning</b>:  require(C:\xampp\htdocs\wc_course\wp-content\plugins\updraftplus\vendor\rackspace\php-opencloud\lib/../vendor/autoload.php): failed to open stream: No such file or directory in <b>C:\xampp\htdocs\wc_course\wp-content\plugins\updraftplus\vendor\rackspace\php-opencloud\lib\php-opencloud.php</b> on line <b>18</b><br>
-<br>
-<b>Fatal error</b>:  require(): Failed opening required 'C:\xampp\htdocs\wc_course\wp-content\plugins\updraftplus\vendor\rackspace\php-opencloud\lib/../vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in <b>C:\xampp\htdocs\wc_course\wp-content\plugins\updraftplus\vendor\rackspace\php-opencloud\lib\php-opencloud.php</b> on line <b>18</b><br>
