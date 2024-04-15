@@ -92,9 +92,7 @@ require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
 
     if ( in_array( 'menu-item-has-children', $item->classes ) ) {
 		$args->before = '<div class="btn-group" style="flex-direction: row-reverse;">';
-		// $args->before .= '<a href="'.$item->url.'" class="nav-link">'.$item->title.'</a>';
         $atts['class'] .= ' dropdown-toggle dropdown-toggle-split';
-		// Tambahkan data-toggle dan aria-haspopup ke atribut
 		$atts['data-toggle'] = 'dropdown';
 		$atts['aria-haspopup'] = 'true';
     }

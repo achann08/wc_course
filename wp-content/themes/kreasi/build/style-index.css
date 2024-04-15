@@ -16,10 +16,10 @@
 
 .main-menu span[itemprop=name] {
   font-weight: 500;
+  text-wrap: pretty;
 }
 
 .main-menu ul li {
-  display: inline;
   margin: 0 5px 0 0;
 }
 
@@ -57,6 +57,8 @@
 
 .main-menu .dropdown-menu {
   background-color: transparent;
+  width: -moz-max-content !important;
+  width: max-content !important;
 }
 
 /* Added more specific selector for dropdown menu */
@@ -75,6 +77,23 @@
 .main-menu ul li ul li a {
   padding: 0.5rem;
   color: #fff;
+}
+
+.main-menu .dropdown .dropdown-menu .nav-item ul li {
+  margin-left: 8%;
+  position: relative;
+  padding-left: 1em;
+}
+
+.main-menu .dropdown-menu ul li::before {
+  font-family: "dashicons";
+  content: "\f474";
+  position: absolute;
+  transform: scaleX(-1);
+  font-size: larger;
+  color: #fff;
+  margin: 5px 3%;
+  left: -8%;
 }
 
 .main-menu .navbar-nav .nav-item.current_page_item > .nav-link,
@@ -133,6 +152,12 @@
   display: block;
 }
 
+.main-menu .dropdown-menu .show {
+  display: contents;
+  width: -moz-max-content;
+  width: max-content;
+}
+
 .main-menu .dropdown-menu .dropdown-menu {
   top: -1px;
   bottom: -1px;
@@ -150,41 +175,19 @@
     padding: 2%;
     margin-top: 2%;
   }
-  .main-menu .dropdown-menu ul li {
-    margin-left: 8%;
-    position: relative;
-    padding-left: 1.5vh;
-  }
-  .main-menu .dropdown-menu ul li::before {
-    font-family: "dashicons";
-    content: "\f474";
-    position: absolute;
-    transform: scaleX(-1);
-    font-size: larger;
-    color: #fff;
-    margin: 5px 3%;
-    left: -8%;
+  .dropdown-menu {
+    min-width: 22rem !important;
   }
 }
 /* Default styles */
-body {
-  padding-top: 8em;
-}
-
-body, .site {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-@media (max-width: 768px) {
-  /* Styles for devices with a maximum width of 768px (e.g., tablets) */
-}
-@media (max-width: 480px) {
-  /* Styles for devices with a maximum width of 480px (e.g., smartphones) */
-  body {
-    padding-top: 15em;
-  }
+.responsive-img-container img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover; /* Untuk menjaga gambar tidak terdistorsi */
 }
 
 /*# sourceMappingURL=style-index.css.map*/

@@ -9,7 +9,7 @@
     </head>
     <body <?php body_class(); ?>>
         <div class="site" id="page">
-        <header class="fixed-top">
+        <header class="sticky-top">
             <section class="bg-dark">
                 <div class="container">
                     <span class="text-white">HeaderTop</span>
@@ -51,21 +51,42 @@
                                 </div>
                                 <div class="col-12">
                                     <nav class="main-menu navbar navbar-expand-md navbar-light bg-light">
-                                        <button class="navbar-toggler ms-auto mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <button class="navbar-toggler ms-auto mb-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                                             <span class="navbar-toggler-icon"></span>
                                         </button>
+
                                         <?php
                                             wp_nav_menu(array(
                                                 'theme_location'  => 'kreasi_nav_menu',
                                                 'depth'           => 4, 
                                                 'container'       => 'div',
-                                                'container_class'   => 'collapse navbar-collapse',
-                                                'container_id'      => 'navbarSupportedContent',
+                                                'container_class' => 'collapse navbar-collapse d-md-block',
+                                                'container_id'    => 'navbarSupportedContent',
                                                 'menu_class'      => 'navbar-nav me-auto mb-2 mb-lg-0',
                                                 'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
                                                 'walker'          => new WP_Bootstrap_Navwalker()
                                             ));
                                         ?>
+                                        
+                                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                                            <div class="offcanvas-header">
+                                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                            </div>
+                                            <div class="offcanvas-body">
+                                                <!-- Masukkan menu disini -->
+                                                <?php
+                                                    wp_nav_menu(array(
+                                                        'theme_location'  => 'kreasi_nav_menu',
+                                                        'depth'           => 4, 
+                                                        'container'       => '',
+                                                        'menu_class'      => 'navbar-nav',
+                                                        'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+                                                        'walker'          => new WP_Bootstrap_Navwalker()
+                                                    ));
+                                                ?>
+                                            </div>
+                                        </div>
                                     </nav>
                                 </div>
                             </div>

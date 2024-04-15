@@ -19,7 +19,7 @@ get_header();
                             <div class="col-md-5">
                                 <div class="position-relative">
                                     <?php if (has_post_thumbnail()): ?>
-                                        <?php echo get_the_post_thumbnail(get_the_ID(), 'full', array('class' => 'img-fluid rounded')); ?>
+                                        <?php echo get_the_post_thumbnail(get_the_ID(), 'full', array('class' => 'img-fluid rounded w-100')); ?>
                                     <?php endif; ?>
                                 </div>
                             </div>
@@ -30,15 +30,15 @@ get_header();
                                         if(!empty($categories)){
                                             foreach($categories as $category){
                                                 ?>
-                                                    <span class="badge rounded-pill bg-primary">
+                                                    <span class="badge rounded-pill bg-primary my-2">
                                                         <a href="<?php echo get_category_link($category->term_id) ?>" class="text-white mx-1 text-decoration-none lead"><?php echo $category->name; ?></a>
                                                     </span>
                                                 <?php
                                             }
                                         }
                                     ?>
-                                    <h2 class="display-6"><?php the_title(); ?></h2>
-                                    <p class="lead"><?php echo wp_trim_words(get_the_content(), 45); ?></p>
+                                    <h2 style="font-weight: 300;"><a class="text-decoration-none" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                                    <p class="lead"><?php echo wp_trim_words(get_the_content(), 35); ?></p>
                                     <a class="btn btn-primary btn-lg w-100" href="<?php the_permalink(); ?>">Baca Selengkapnya</a>
                                 </div>
                             </div>
