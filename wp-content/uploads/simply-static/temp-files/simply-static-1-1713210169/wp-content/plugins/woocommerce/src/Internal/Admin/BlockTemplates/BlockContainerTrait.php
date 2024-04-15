@@ -1,0 +1,2 @@
+<br>
+<b>Fatal error</b>:  Trait 'Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait' not found in <b>C:\xampp\htdocs\wc_course\wp-content\plugins\woocommerce\src\Internal\Admin\BlockTemplates\BlockContainerTrait.php</b> on line <b>11</b><br>

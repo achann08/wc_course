@@ -1,0 +1,2 @@
+<br>
+<b>Fatal error</b>:  Trait 'Carbon\Traits\IntervalRounding' not found in <b>C:\xampp\htdocs\wc_course\wp-content\plugins\fakerpress\vendor\nesbot\carbon\src\Carbon\Traits\Rounding.php</b> on line <b>27</b><br>

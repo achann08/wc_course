@@ -20,7 +20,7 @@ RewriteRule . /wc_course/index.php [L]
 # The directives (lines) between "BEGIN Simply Static" and "END Simply Static" are
 # dynamically generated, and should only be modified via WordPress filters.
 # Any changes to the directives between these markers will be overwritten.
-<Files "C:\xampp\htdocs\wc_course/wp-content/uploads\simply-static\f1041eb922d7272b8f395581b3d5f523-debug.txt">
+<Files "C:\xampp\htdocs\wc_course/wp-content/uploads\simply-static\abcec40d1bbc44127d54c3e6411c236f-debug.txt">
 require all denied
 require host localhost
 </Files>

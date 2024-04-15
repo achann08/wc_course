@@ -1,0 +1,10 @@
+/* Default styles */
+
+.responsive-img-container img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Untuk menjaga gambar tidak terdistorsi */
+}

@@ -1,0 +1,3 @@
+<div class="box">
+	<a href="https://achann08.github.io/wc_course/wp-content/themes/flatsome/template-parts/posts/loop/<br />_<b>Fatal error</b>:  Uncaught Error: Call to undefined function the_permalink() in C:\xampp\htdocs\wc_course\wp-content\themes\flatsome\template-parts\posts\loop\post-simple.php:11_Stack trace:_#0 {main}_  thrown in <b>C:\xampp\htdocs\wc_course\wp-content\themes\flatsome\template-parts\posts\loop\post-simple.php</b> on line <b>11</b><br />"></a>
+</div>

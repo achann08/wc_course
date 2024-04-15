@@ -1,0 +1,3 @@
+<li>
+	<a href="https://achann08.github.io/wc_course/wp-content/themes/flatsome/woocommerce/<br />_<b>Fatal error</b>:  Uncaught Error: Call to undefined function esc_url() in C:\xampp\htdocs\wc_course\wp-content\themes\flatsome\woocommerce\content-product-small.php:12_Stack trace:_#0 {main}_  thrown in <b>C:\xampp\htdocs\wc_course\wp-content\themes\flatsome\woocommerce\content-product-small.php</b> on line <b>12</b><br />"></a>
+</li>

@@ -1,0 +1,2 @@
+<br>
+<b>Fatal error</b>:  Trait 'Automattic\WooCommerce\Internal\Traits\OrderAttributionMeta' not found in <b>C:\xampp\htdocs\wc_course\wp-content\plugins\woocommerce\src\Internal\Admin\Orders\MetaBoxes\OrderAttribution.php</b> on line <b>14</b><br>

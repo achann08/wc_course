@@ -1,0 +1,4 @@
+<br>
+<b>Warning</b>:  require_once(C:\xampp\htdocs\wc_course\wp-content\plugins\woocommerce\vendor\automattic\jetpack-autoloader\src/jetpack-autoloader/class-autoloader.php): failed to open stream: No such file or directory in <b>C:\xampp\htdocs\wc_course\wp-content\plugins\woocommerce\vendor\automattic\jetpack-autoloader\src\autoload.php</b> on line <b>4</b><br>
+<br>
+<b>Fatal error</b>:  require_once(): Failed opening required 'C:\xampp\htdocs\wc_course\wp-content\plugins\woocommerce\vendor\automattic\jetpack-autoloader\src/jetpack-autoloader/class-autoloader.php' (include_path='C:\xampp\php\PEAR') in <b>C:\xampp\htdocs\wc_course\wp-content\plugins\woocommerce\vendor\automattic\jetpack-autoloader\src\autoload.php</b> on line <b>4</b><br>
