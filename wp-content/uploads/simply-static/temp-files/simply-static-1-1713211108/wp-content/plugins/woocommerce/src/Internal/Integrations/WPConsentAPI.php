@@ -1,2 +1,0 @@
-<br>
-<b>Fatal error</b>:  Trait 'Automattic\WooCommerce\Internal\Traits\ScriptDebug' not found in <b>C:\xampp\htdocs\wc_course\wp-content\plugins\woocommerce\src\Internal\Integrations\WPConsentAPI.php</b> on line <b>15</b><br>

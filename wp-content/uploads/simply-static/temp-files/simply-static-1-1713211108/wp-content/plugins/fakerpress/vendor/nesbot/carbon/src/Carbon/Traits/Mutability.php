@@ -1,2 +1,0 @@
-<br>
-<b>Fatal error</b>:  Trait 'Carbon\Traits\Cast' not found in <b>C:\xampp\htdocs\wc_course\wp-content\plugins\fakerpress\vendor\nesbot\carbon\src\Carbon\Traits\Mutability.php</b> on line <b>22</b><br>
