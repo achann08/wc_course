@@ -1,0 +1,5 @@
+2024-03-26T13:46:52+00:00 CRITICAL syntax error, unexpected 'add_filter' (T_STRING) in C:\xampp\htdocs\wc_course\wp-content\themes\kreasi\functions.php on line 63
+
+2024-03-26T13:48:38+00:00 CRITICAL syntax error, unexpected 'add_filter' (T_STRING) in C:\xampp\htdocs\wc_course\wp-content\themes\kreasi\functions.php on line 65
+
+2024-03-26T14:20:43+00:00 CRITICAL syntax error, unexpected ''after_widget'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' CONTEXT: {"error":{"type":4,"file":"C:\\xampp\\htdocs\\wc_course\\wp-content\\themes\\kreasi\\functions.php","line":58},"backtrace":[{"file":"C:\\xampp\\htdocs\\wc_course\\wp-content\\plugins\\woocommerce\\includes\\class-woocommerce.php","line":342,"function":"critical","class":"WC_Logger","type":"->"},{"function":"log_errors","class":"WooCommerce","type":"->"}]}
