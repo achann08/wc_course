@@ -51,14 +51,12 @@
     cursor: pointer;
 }
 
-.main-menu .dropdown-menu {
-    background-color: transparent;
-    width: max-content !important;
-}
+
 
 /* Added more specific selector for dropdown menu */
 .main-menu .dropdown-menu > .show > .dropdown-menu {
     background-color: #000;
+   
 }
 
 .main-menu .dropdown-menu .nav-item {
@@ -72,6 +70,7 @@
 .main-menu ul li ul li a {
     padding: 0.5rem;
     color: #fff;
+    width: auto !important;
 }
 
 
@@ -123,12 +122,21 @@
 
 .main-menu .dropdown-menu .btn-group {
     display: inline-flex;
+    width: 100%;
+    justify-content: flex-end;
 }
 
 .main-menu .dropdown-menu .btn-group .nav-link {
     color: white !important;
-    text-wrap: nowrap !important;
+    text-wrap: wrap !important;
+    flex: 100;
 }
+
+.main-menu .dropdown-menu .btn-group .dropdown-item {
+    flex: 1 !important;
+}
+
+
 
 .main-menu ul li .dropdown-menu .dropdown > a::after {
     display: inline-block;
@@ -170,7 +178,10 @@
         padding: 2%;
         margin-top: 2%;
     }
-    .dropdown-menu{
-        min-width: 22rem !important;
-    }   
+}
+
+@media screen and (min-width: 768px) {
+    .main-menu .dropdown-menu {
+        width: max-content !important;
+    }
 }

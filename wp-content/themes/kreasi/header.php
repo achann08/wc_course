@@ -51,7 +51,7 @@
                                 </div>
                                 <div class="col-12">
                                     <nav class="main-menu navbar navbar-expand-md navbar-light bg-light">
-                                        <button class="navbar-toggler ms-auto mb-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                                             <span class="navbar-toggler-icon"></span>
                                         </button>
 
