@@ -42,8 +42,6 @@ require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
 		'flex_width'	=> true,
 	) );
 
-	add_image_size('kreasi-blog', 960, 640, array('center', 'center'));
-
  }
  add_action( 'after_setup_theme', 'kreasi_config', 0 );
 
